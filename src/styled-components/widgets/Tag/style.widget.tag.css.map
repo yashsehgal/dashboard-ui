@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,IAAI,CAAC;EACP,KAAK,EAAE,WAAW;EAClB,OAAO,EAAE,WAAW;EACpB,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,GAAG,EAAE,GAAG;CAIT;;AAZD,AASE,IATE,AAAA,IAAI,CASN,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "style.widget.tag.scss"
+    ],
+    "names": [],
+    "file": "style.widget.tag.css"
+}
