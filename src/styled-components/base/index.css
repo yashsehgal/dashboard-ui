@@ -1,0 +1,9 @@
+body {
+  color: var(--gray-1);
+  font-family: var(--font-inter);
+}
+
+body ::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */

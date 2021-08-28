@@ -1,0 +1,167 @@
+
+// primary colors
+$primary-blue: #7676FF;
+$primary-red: #FF7676;
+$primary-green: #76FFA5;
+$primary-yellow: #FFF176;
+
+// neutral colors
+$gray-1: #292929;
+$gray-2: #595959;
+$gray-3: #898989;
+$gray-4: #A9A9A9;
+$gray-5: #D9D9D9;
+$gray-6: #F2F2F2;
+$white: #FFFFFF;
+
+:root {
+  // primary colors
+  --primary-blue: #7676FF;
+  --primary-red: #FF7676;
+  --primary-green: #76FFA5;
+  --primary-yellow: #FFF176;
+
+  // neutral colors
+  --gray-1: #292929;
+  --gray-2: #595959;
+  --gray-3: #898989;
+  --gray-4: #A9A9A9;
+  --gray-5: #D9D9D9;
+  --gray-6: #F2F2F2;
+  --white: #FFFFFF;
+}
+
+.blue {
+  &__bg {
+    background-color: $primary-blue;
+  }
+  &__fill {
+    fill: $primary-blue;
+  }
+}
+
+.red {
+  &__bg {
+    background-color: $primary-red;
+  }
+  &__fill {
+    fill: $primary-red;
+  }
+}
+
+.green {
+  &__bg {
+    background-color: $primary-green;
+  }
+  &__fill {
+    fill: $primary-green;
+  }
+}
+
+.yellow {
+  &__bg {
+    background-color: $primary-yellow;
+  }
+  &__fill {
+    fill: $primary-yellow;
+  }
+}
+
+.gray-1 {
+  &__bg {
+    background-color: $gray-1;
+  }
+  &__fill {
+    fill: $gray-1;
+  }
+}
+
+.gray-2 {
+  &__bg {
+    background-color: $gray-2;
+  }
+  &__fill {
+    fill: $gray-2;
+  }
+}
+
+.gray-3 {
+  &__bg {
+    background-color: $gray-3;
+  }
+  &__fill {
+    fill: $gray-3;
+  }
+}
+
+.gray-4 {
+  &__bg {
+    background-color: $gray-4;
+  }
+  &__fill {
+    fill: $gray-4;
+  }
+}
+
+.gray-5 {
+  &__bg {
+    background-color: $gray-5;
+  }
+  &__fill {
+    fill: $gray-5;
+  }
+}
+
+.gray-6 {
+  &__bg {
+    background-color: $gray-6;
+  }
+  &__fill {
+    fill: $gray-6;
+  }
+}
+
+.white {
+  &__bg {
+    background-color: $white;
+  }
+  &__fill {
+    fill: $white;
+  }
+}
+
+.text {
+  &__blue {
+    color: $primary-blue;
+  }
+  &__red {
+    color: $primary-red;
+  }
+  &__green {
+    color: $primary-green;
+  }
+  &__yellow {
+    color: $primary-yellow;
+  }
+  &__gray-1 {
+    color: $gray-1;
+  }
+  &__gray-2 {
+    color: $gray-2;
+  }
+  &__gray-3 {
+    color: $gray-3;
+  }
+  &__gray-4 {
+    color: $gray-4;
+  }
+  &__gray-5 {
+    color: $gray-5;
+  }
+  &__gray-6 {
+    color: $gray-6;
+  }
+  &__white {
+    color: $white;
+  }
+}

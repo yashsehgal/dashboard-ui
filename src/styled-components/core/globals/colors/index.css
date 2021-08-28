@@ -1,0 +1,146 @@
+:root {
+  --primary-blue: #7676FF;
+  --primary-red: #FF7676;
+  --primary-green: #76FFA5;
+  --primary-yellow: #FFF176;
+  --gray-1: #292929;
+  --gray-2: #595959;
+  --gray-3: #898989;
+  --gray-4: #A9A9A9;
+  --gray-5: #D9D9D9;
+  --gray-6: #F2F2F2;
+  --white: #FFFFFF;
+}
+
+.blue__bg {
+  background-color: #7676FF;
+}
+
+.blue__fill {
+  fill: #7676FF;
+}
+
+.red__bg {
+  background-color: #FF7676;
+}
+
+.red__fill {
+  fill: #FF7676;
+}
+
+.green__bg {
+  background-color: #76FFA5;
+}
+
+.green__fill {
+  fill: #76FFA5;
+}
+
+.yellow__bg {
+  background-color: #FFF176;
+}
+
+.yellow__fill {
+  fill: #FFF176;
+}
+
+.gray-1__bg {
+  background-color: #292929;
+}
+
+.gray-1__fill {
+  fill: #292929;
+}
+
+.gray-2__bg {
+  background-color: #595959;
+}
+
+.gray-2__fill {
+  fill: #595959;
+}
+
+.gray-3__bg {
+  background-color: #898989;
+}
+
+.gray-3__fill {
+  fill: #898989;
+}
+
+.gray-4__bg {
+  background-color: #A9A9A9;
+}
+
+.gray-4__fill {
+  fill: #A9A9A9;
+}
+
+.gray-5__bg {
+  background-color: #D9D9D9;
+}
+
+.gray-5__fill {
+  fill: #D9D9D9;
+}
+
+.gray-6__bg {
+  background-color: #F2F2F2;
+}
+
+.gray-6__fill {
+  fill: #F2F2F2;
+}
+
+.white__bg {
+  background-color: #FFFFFF;
+}
+
+.white__fill {
+  fill: #FFFFFF;
+}
+
+.text__blue {
+  color: #7676FF;
+}
+
+.text__red {
+  color: #FF7676;
+}
+
+.text__green {
+  color: #76FFA5;
+}
+
+.text__yellow {
+  color: #FFF176;
+}
+
+.text__gray-1 {
+  color: #292929;
+}
+
+.text__gray-2 {
+  color: #595959;
+}
+
+.text__gray-3 {
+  color: #898989;
+}
+
+.text__gray-4 {
+  color: #A9A9A9;
+}
+
+.text__gray-5 {
+  color: #D9D9D9;
+}
+
+.text__gray-6 {
+  color: #F2F2F2;
+}
+
+.text__white {
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=index.css.map */

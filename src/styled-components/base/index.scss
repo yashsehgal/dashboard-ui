@@ -1,0 +1,7 @@
+body {
+  color: var(--gray-1);
+  font-family: var(--font-inter);
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
