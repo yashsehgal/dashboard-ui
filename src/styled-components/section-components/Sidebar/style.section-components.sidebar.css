@@ -1,1 +1,56 @@
-/* No CSS *//*# sourceMappingURL=style.section-components.sidebar.css.map */
+div.widget__sidebar {
+  width: 330px;
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  background-color: var(--gray-6);
+  padding: 2em 1.4em;
+}
+
+div.widget__sidebar > div.sidebar-product-details-wrapper {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 0.4em;
+}
+
+div.widget__sidebar > div.sidebar-product-details-wrapper > p.sidebar-product-details__description {
+  font-size: 14px;
+}
+
+div.widget__sidebar > div.sidebar-options-wrapper {
+  margin-top: 3.6em;
+}
+
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  gap: 2em;
+}
+
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option {
+  font-weight: 600;
+}
+
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option > a.sidebar-option-link {
+  text-transform: capitalize;
+}
+
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option > a.sidebar-option-link:hover {
+  color: var(--gray-4);
+}
+/*# sourceMappingURL=style.section-components.sidebar.css.map */

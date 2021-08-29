@@ -1,0 +1,32 @@
+div.view__dashboard > div.dashboard-header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+  padding: 1.2em 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.view__dashboard > div.dashboard-header > div.dashboard-header__workspace-details-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.6em;
+}
+
+div.view__dashboard > div.dashboard-header > div.user-profile-actions-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  gap: 1em;
+}
+/*# sourceMappingURL=style.views.dashboard.css.map */

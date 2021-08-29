@@ -1,15 +1,15 @@
 import React from 'react';
 
-export default function PrimaryButtonLarge(__ButtonProperties) {
+export default function PrimaryButton(__ButtonProperties) {
   if (__ButtonProperties.state === 'disabled') {
     return (
-      <button className="button button-primary button-primary-disabled button-large">
+      <button className="button button-primary-disabled button-small">
         {__ButtonProperties.value}
       </button>
     )
   }
   return (
-    <button className="button button-primary button-large">
+    <button className="button button-primary button-small">
       {__ButtonProperties.value}
     </button>
   )

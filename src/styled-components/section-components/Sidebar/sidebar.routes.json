@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Dashboard",
+    "path": "/dashboard"
+  },
+  {
+    "title": "Teams",
+    "path": "/teams"
+  },
+  {
+    "title": "Projects",
+    "path": "/projects"
+  },
+  {
+    "title": "Chats",
+    "path": "/chats"
+  },
+  {
+    "title": "Profile",
+    "path": "/profile"
+  },
+  {
+    "title": "Settings",
+    "path": "/settings"
+  }
+]

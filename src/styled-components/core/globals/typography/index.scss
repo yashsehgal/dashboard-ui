@@ -37,6 +37,11 @@ h6, .h6 {
   font-weight: 500;
 }
 
-p, b, i, u, strong {
+p {
   font-weight: 500;
+}
+
+a, a:active, a:visited {
+  color: inherit;
+  text-decoration: none;
 }
