@@ -8,8 +8,8 @@ export default function Sidebar() {
   return (
     <div className="widget__sidebar">
       <div className="sidebar-product-details-wrapper">
-        <h4 className="sidebar-product-details__title"><b>GitSpace</b></h4>
-        <p className="sidebar-product-details__description text__gray-4">Your personalized project management workspace.</p>
+        <h4 className="sidebar-product-details__title text__gray-6">GitSpace</h4>
+        <p className="sidebar-product-details__description text__gray-5">Your personalized project management workspace.</p>
       </div>
       <div className="sidebar-options-wrapper">
         <ul className="sidebar-options-list">

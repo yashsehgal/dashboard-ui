@@ -7,13 +7,6 @@ body ::-webkit-scrollbar {
   display: none;
 }
 
-div.view__app {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% auto;
-      grid-template-columns: 20% auto;
-}
-
 div.view {
   margin-left: 350px;
 }

@@ -12,7 +12,7 @@ div.widget__sidebar {
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 20px;
-  background-color: var(--gray-6);
+  background-color: var(--gray-1);
   padding: 2em 1.4em;
 }
 
@@ -42,12 +42,9 @@ div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list {
   gap: 2em;
 }
 
-div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option {
-  font-weight: 600;
-}
-
 div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option > a.sidebar-option-link {
   text-transform: capitalize;
+  color: var(--gray-5);
 }
 
 div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > li.sidebar-option > a.sidebar-option-link:hover {

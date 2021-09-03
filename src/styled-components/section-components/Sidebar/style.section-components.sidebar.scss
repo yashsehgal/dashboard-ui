@@ -8,7 +8,7 @@ div.widget__sidebar {
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-  background-color: var(--gray-6);
+  background-color: var(--gray-1);
   padding: 2em 1.4em;
   > div.sidebar-product-details-wrapper {
     display: grid;
@@ -25,9 +25,9 @@ div.widget__sidebar {
       list-style: none;
       gap: 2em;
       > li.sidebar-option {
-        font-weight: 600;
         > a.sidebar-option-link {
           text-transform: capitalize;
+          color: var(--gray-5);
           &:hover {
             color: var(--gray-4);
           }
