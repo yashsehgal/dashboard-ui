@@ -1,34 +1,33 @@
-
 // primary colors
-$primary-blue: #7676FF;
-$primary-red: #FF7676;
-$primary-green: #76FFA5;
-$primary-yellow: #FFF176;
+$primary-blue: #7676ff;
+$primary-red: #ff7676;
+$primary-green: #76ffa5;
+$primary-yellow: #fff176;
 
 // neutral colors
 $gray-1: #292929;
 $gray-2: #595959;
 $gray-3: #898989;
-$gray-4: #A9A9A9;
-$gray-5: #D9D9D9;
-$gray-6: #F2F2F2;
-$white: #FFFFFF;
+$gray-4: #a9a9a9;
+$gray-5: #d9d9d9;
+$gray-6: #f2f2f2;
+$white: #ffffff;
 
 :root {
   // primary colors
-  --primary-blue: #7676FF;
-  --primary-red: #FF7676;
-  --primary-green: #76FFA5;
-  --primary-yellow: #FFF176;
+  --primary-blue: #7676ff;
+  --primary-red: #ff7676;
+  --primary-green: #76ffa5;
+  --primary-yellow: #fff176;
 
   // neutral colors
   --gray-1: #292929;
   --gray-2: #595959;
   --gray-3: #898989;
-  --gray-4: #A9A9A9;
-  --gray-5: #D9D9D9;
-  --gray-6: #F2F2F2;
-  --white: #FFFFFF;
+  --gray-4: #a9a9a9;
+  --gray-5: #d9d9d9;
+  --gray-6: #f2f2f2;
+  --white: #ffffff;
 }
 
 .blue {
