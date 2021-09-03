@@ -30,7 +30,8 @@ export default function Tag (TagProperties) {
   // returning tag component without inner-icon
   return tagInnerIcon === undefined ||
     tagInnerIcon === null ||
-    tagInnerIcon === '\0' ? (<span
+    tagInnerIcon === '\0' ? (
+      <span
         className='tag'
         style={{
           backgroundColor: tagColor,
@@ -38,14 +39,17 @@ export default function Tag (TagProperties) {
         }}
       >
         {tagInnerText}
-      </span>) : (<span
-        className='tag'
-        style={{
-          backgroundColor: tagColor,
-          color: tagTextColor
-        }}
-      >
-        <i className={tagInnerIcon} />{' '}
-        <span className='tag-inner-text-wrapper'>{tagInnerText}</span>
-      </span>);
+      </span>
+      ) : (
+        <span
+          className='tag'
+          style={{
+            backgroundColor: tagColor,
+            color: tagTextColor
+          }}
+        >
+          <i className={tagInnerIcon} />{' '}
+          <span className='tag-inner-text-wrapper'>{tagInnerText}</span>
+        </span>
+      )
 }
