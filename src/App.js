@@ -5,28 +5,19 @@ import Sidebar from './styled-components/section-components/Sidebar';
 import Dashboard from './views/Dashboard';
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
-      <div className="view__app">
+      <div className='view__app'>
         {/* sidebar */}
         <Sidebar />
 
-        <div className="app-wrapper">
+        <div className='app-wrapper'>
           {/* setting up routers using hash-router */}
           <BrowserRouter>
             {/* routes for home-view / dashboard-view */}
-            <Route
-              path="/"
-              exact component={Dashboard}
-            />
-            <Route
-              path="/home"
-              exact component={Dashboard}
-            />
-            <Route
-              path="/dashboard"
-              exact component={Dashboard}
-            />
+            <Route path='/' exact component={Dashboard} />
+            <Route path='/home' exact component={Dashboard} />
+            <Route path='/dashboard' exact component={Dashboard} />
           </BrowserRouter>
         </div>
       </div>

@@ -1,34 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --font-inter: 'Inter', sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 42px;
   font-weight: 800;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 36px;
   font-weight: 800;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 30px;
   font-weight: 700;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 24px;
   font-weight: 600;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
   font-weight: 500;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 12px;
   font-weight: 500;
 }
@@ -37,7 +43,9 @@ p {
   font-weight: 500;
 }
 
-a, a:active, a:visited {
+a,
+a:active,
+a:visited {
   color: inherit;
   text-decoration: none;
 }
