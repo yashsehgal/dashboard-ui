@@ -1,47 +1,47 @@
 :root {
-  --primary-blue: #7676FF;
-  --primary-red: #FF7676;
-  --primary-green: #76FFA5;
-  --primary-yellow: #FFF176;
+  --primary-blue: #7676ff;
+  --primary-red: #ff7676;
+  --primary-green: #76ffa5;
+  --primary-yellow: #fff176;
   --gray-1: #292929;
   --gray-2: #595959;
   --gray-3: #898989;
-  --gray-4: #A9A9A9;
-  --gray-5: #D9D9D9;
-  --gray-6: #F2F2F2;
-  --white: #FFFFFF;
+  --gray-4: #a9a9a9;
+  --gray-5: #d9d9d9;
+  --gray-6: #f2f2f2;
+  --white: #ffffff;
 }
 
 .blue__bg {
-  background-color: #7676FF;
+  background-color: #7676ff;
 }
 
 .blue__fill {
-  fill: #7676FF;
+  fill: #7676ff;
 }
 
 .red__bg {
-  background-color: #FF7676;
+  background-color: #ff7676;
 }
 
 .red__fill {
-  fill: #FF7676;
+  fill: #ff7676;
 }
 
 .green__bg {
-  background-color: #76FFA5;
+  background-color: #76ffa5;
 }
 
 .green__fill {
-  fill: #76FFA5;
+  fill: #76ffa5;
 }
 
 .yellow__bg {
-  background-color: #FFF176;
+  background-color: #fff176;
 }
 
 .yellow__fill {
-  fill: #FFF176;
+  fill: #fff176;
 }
 
 .gray-1__bg {
@@ -69,51 +69,51 @@
 }
 
 .gray-4__bg {
-  background-color: #A9A9A9;
+  background-color: #a9a9a9;
 }
 
 .gray-4__fill {
-  fill: #A9A9A9;
+  fill: #a9a9a9;
 }
 
 .gray-5__bg {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .gray-5__fill {
-  fill: #D9D9D9;
+  fill: #d9d9d9;
 }
 
 .gray-6__bg {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .gray-6__fill {
-  fill: #F2F2F2;
+  fill: #f2f2f2;
 }
 
 .white__bg {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .white__fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .text__blue {
-  color: #7676FF;
+  color: #7676ff;
 }
 
 .text__red {
-  color: #FF7676;
+  color: #ff7676;
 }
 
 .text__green {
-  color: #76FFA5;
+  color: #76ffa5;
 }
 
 .text__yellow {
-  color: #FFF176;
+  color: #fff176;
 }
 
 .text__gray-1 {
@@ -129,18 +129,18 @@
 }
 
 .text__gray-4 {
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 
 .text__gray-5 {
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
 .text__gray-6 {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .text__white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*# sourceMappingURL=index.css.map */
