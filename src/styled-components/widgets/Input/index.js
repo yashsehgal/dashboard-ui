@@ -1,21 +1,21 @@
-import React from 'react'
-import './style.widgets.input.css'
+import React from "react";
+import "./style.widgets.input.css";
 
-export default function Input (InputProperties) {
+export default function Input(InputProperties) {
   return (
-    <div className='input__wrapper'>
+    <div className="input__wrapper">
       <i className={InputProperties.icon} />
       <input
         type={InputProperties.type}
         placeholder={InputProperties.placeholder}
-        className={'input input-' + InputProperties.type}
+        className={"input input-" + InputProperties.type}
         id={
-          'input-type__' +
+          "input-type__" +
           InputProperties.type +
-          '-icon__' +
+          "-icon__" +
           InputProperties.icon
         }
       />
     </div>
-  )
+  );
 }
