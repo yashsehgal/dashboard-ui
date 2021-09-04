@@ -16,13 +16,15 @@ export default function Sidebar() {
         </p>
       </div>
       <div className="workspace-details-wrapper">
-        <img src={
-            loadImageFromImagekit('gitspace-logo', 'svg')} 
-          alt="workspace-logo" 
-          className="workspace-logo-image" 
-          id="workspace-logo" 
+        <img
+          src={loadImageFromImagekit("gitspace-logo", "svg")}
+          alt="workspace-logo"
+          className="workspace-logo-image"
+          id="workspace-logo"
         />
-        <h6 className="workspace-title text__gray-4">GitSpace Sample Workspace</h6>
+        <h6 className="workspace-title text__gray-4">
+          GitSpace Sample Workspace
+        </h6>
       </div>
       <div className="sidebar-options-wrapper">
         <ul className="sidebar-options-list">
