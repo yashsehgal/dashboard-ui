@@ -6,4 +6,9 @@ body {
 body ::-webkit-scrollbar {
   display: none;
 }
+
+div.view {
+  margin-left: 350px;
+}
+
 /*# sourceMappingURL=index.css.map */

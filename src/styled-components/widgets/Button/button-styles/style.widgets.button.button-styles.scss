@@ -1,0 +1,56 @@
+.button {
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1.2px;
+  // class-extends for button-types
+  &-primary {
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    &:hover {
+      filter: brightness(90%);
+    }
+  }
+  &-primary-disabled {
+    background-color: var(--gray-5);
+    color: var(--gray-2);
+    border: none;
+  }
+  &-outline {
+    background-color: transparent;
+    border: 1.2px solid var(--primary-blue);
+    color: var(--primary-blue);
+    &:hover {
+      background-color: var(--gray-6);
+    }
+  }
+  &-outline-disabled {
+    background-color: transparent;
+    border: 1.2px solid var(--gray-5);
+    color: var(--gray-4);
+  }
+  &-text {
+    background-color: white;
+    border: none;
+    color: var(--primary-blue);
+    &:hover {
+      box-shadow: 0px 4px 12px var(--gray-4);
+    }
+  }
+  &-text-disabled {
+    color: var(--gray-4);
+  }
+  // class-extends for button-sizes
+  &-small {
+    padding: 8px;
+  }
+  &-large {
+    padding: 12px;
+  }
+}

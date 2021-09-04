@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,YAAY,CAAC;EACd,OAAO,EAAE,IAAI;CAKd;;AAND,AAGE,GAHC,AAAA,YAAY,GAGX,GAAG,AAAA,MAAM,CAAC;EACV,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "style.widgets.section-components.menu.scss"
+    ],
+    "names": [],
+    "file": "style.widgets.section-components.menu.css"
+}

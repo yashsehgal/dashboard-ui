@@ -1,0 +1,16 @@
+div.input__wrapper {
+  display: flex;
+  border-radius: 2px;
+  gap: 8px;
+  align-items: center;
+  width: 300px;
+  border: 0.4px solid var(--gray-4);
+  height: 50px;
+  padding: 0px 12px;
+  > input {
+    width: 100%;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+  }
+}

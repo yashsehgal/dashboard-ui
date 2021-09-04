@@ -1,0 +1,10 @@
+div.menu-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.menu-header > div#div-2 {
+  margin-left: auto;
+}
+/*# sourceMappingURL=style.widgets.section-components.menu.css.map */

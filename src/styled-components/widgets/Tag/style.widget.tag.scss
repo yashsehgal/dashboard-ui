@@ -1,0 +1,13 @@
+span.tag {
+  width: fit-content;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  ::selection {
+    display: none;
+  }
+}

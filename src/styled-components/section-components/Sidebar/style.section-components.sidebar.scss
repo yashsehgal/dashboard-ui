@@ -1,0 +1,38 @@
+div.widget__sidebar {
+  width: 330px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  // z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  background-color: var(--gray-1);
+  padding: 2em 1.4em;
+  > div.sidebar-product-details-wrapper {
+    display: grid;
+    row-gap: 0.4em;
+    > p.sidebar-product-details__description {
+      font-size: 14px;
+    }
+  }
+  > div.sidebar-options-wrapper {
+    margin-top: 3.6em;
+    > ul.sidebar-options-list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      gap: 2em;
+      > li.sidebar-option {
+        > a.sidebar-option-link {
+          text-transform: capitalize;
+          color: var(--gray-5);
+          &:hover {
+            color: var(--gray-4);
+          }
+        }
+      }
+    }
+  }
+}
