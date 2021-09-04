@@ -1,11 +1,50 @@
+// default size
 div.input__wrapper {
   display: flex;
+  overflow: hidden;
   border-radius: 2px;
   gap: 8px;
   align-items: center;
-  width: 300px;
   border: 0.4px solid var(--gray-4);
-  height: 50px;
+  height: 30px;
+  padding: 0px 12px;
+  > input {
+    width: 100%;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+  }
+}
+
+// medium size
+div.input__wrapper-medium {
+  display: flex;
+  overflow: hidden;
+  border-radius: 2px;
+  gap: 8px;
+  width: 500px;
+  align-items: center;
+  border: 0.4px solid var(--gray-4);
+  height: 30px;
+  padding: 0px 12px;
+  > input {
+    width: 100%;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+  }
+}
+
+// large size
+div.input__wrapper-large {
+  width: 700px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 2px;
+  gap: 8px;
+  align-items: center;
+  border: 0.4px solid var(--gray-4);
+  height: 30px;
   padding: 0px 12px;
   > input {
     width: 100%;
