@@ -1,10 +1,28 @@
-div.menu-header {
+header.menu-header {
+  padding: 16px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid var(--gray-5);
 }
 
-div.menu-header > div#div-2 {
-  margin-left: auto;
+header.menu-header > div.profile-actions-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+header.menu-header > div.profile-actions-wrapper > img.profile-display__user {
+  width: 52px;
 }
 /*# sourceMappingURL=style.widgets.section-components.menu.css.map */

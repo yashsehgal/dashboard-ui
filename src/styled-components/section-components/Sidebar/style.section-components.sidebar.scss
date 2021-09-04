@@ -17,22 +17,44 @@ div.widget__sidebar {
       font-size: 14px;
     }
   }
+  > div.workspace-details-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3em;
+    cursor: pointer;
+    > img.workspace-logo-image {
+      width: 46px;
+      border-radius: 50%;
+    }
+    > h6.workspace-title {
+      text-transform: uppercase;
+    }
+  }
   > div.sidebar-options-wrapper {
     margin-top: 3.6em;
     > ul.sidebar-options-list {
       display: flex;
       flex-direction: column;
       list-style: none;
-      gap: 2em;
+      gap: 1em;
       > li.sidebar-option {
-        > a.sidebar-option-link {
-          text-transform: capitalize;
-          color: var(--gray-5);
-          &:hover {
-            color: var(--gray-4);
-          }
+        padding: 0.4em;
+        border-radius: 6px;
+        &:hover {
+          background-color: var(--gray-2);
+          color: var(--gray-6);
         }
       }
+    }
+  }
+  > div.sidebar-footer-section-wrapper {
+    margin-bottom: 2em;
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    > h6.company-name {
+      color: var(--gray-4);
     }
   }
 }

@@ -1,7 +1,15 @@
-div.menu-header {
+header.menu-header {
+  padding: 16px 0px;
   display: flex;
-
-  > div#div-2 {
-    margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-5);
+  > div.profile-actions-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    > img.profile-display__user {
+      width: 52px;
+    }
   }
 }
