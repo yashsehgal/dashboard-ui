@@ -36,7 +36,7 @@ export default function loadImageFromImagekit(image_id, image_filetype) {
       break;
     }
   } else {
-    console.log(`Warning: Imagekit export is not being used properly, parameters (${image_id}, ${image_filetype}) are not in usage.`);
+    console.warn(`Warning: Imagekit export is not being used properly, parameters (${image_id}, ${image_filetype}) are not in usage.`);
   }
   return ImagekitURLExport;
 }
