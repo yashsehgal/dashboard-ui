@@ -28,15 +28,15 @@ export default function Sidebar() {
         <ul className="sidebar-options-list">
           {_sideBarRoutes.map((sideBarOption, index) => {
             return (
-              <li className="sidebar-option text__gray-3" key={index}>
                 <a
                   href={sideBarOption.path}
                   className="sidebar-option-link"
                   key={index}
                 >
-                  {sideBarOption.title}
-                </a>
-              </li>
+                  <li className="sidebar-option text__gray-3" key={index}>
+                    {sideBarOption.title}
+                  </li>
+              </a>
             );
           })}
         </ul>
