@@ -63,14 +63,22 @@ div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list {
   gap: 1em;
 }
 
-div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option {
+div.widget__sidebar
+  > div.sidebar-options-wrapper
+  > ul.sidebar-options-list
+  > a.sidebar-option-link
+  > li.sidebar-option {
   padding: 0.4em;
   border-radius: 6px;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 
-div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option:hover {
+div.widget__sidebar
+  > div.sidebar-options-wrapper
+  > ul.sidebar-options-list
+  > a.sidebar-option-link
+  > li.sidebar-option:hover {
   background-color: var(--gray-2);
   color: var(--gray-6);
 }
