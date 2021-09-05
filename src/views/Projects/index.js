@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ProjectCard from '../../styled-components/widgets/Card/ProjectCard';
 import './style.views.projects.css';
+import Input from '../../styled-components/widgets/Input';
 import { PrimaryButton } from '../../styled-components/widgets/Button';
 
 // importing sample-data for testing frontend
@@ -13,6 +14,14 @@ export default function Projects() {
     <div className="view view__projects">
       <div className="projects-board-header">
         <h4 className="projects-view-title">All Projects</h4>
+        <Input size="medium" 
+          placeholder="Search for Projects, Tags, Languages, etc"
+          icon="fas fa-search"
+        />
+        <PrimaryButton 
+          value="Filter Projects"
+          icon="fas fa-filter"
+        />
         <div className="projects-action-button-wrapper">
           <PrimaryButton 
             value="Add a new Project"
