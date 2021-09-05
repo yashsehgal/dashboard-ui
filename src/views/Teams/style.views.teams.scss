@@ -1,0 +1,20 @@
+div.view__teams {
+   > div.teams-board-header {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div.teams-action-button-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+  > div.teams-wrapper {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    row-gap: 1em;
+  }
+}
