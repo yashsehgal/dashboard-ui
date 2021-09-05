@@ -1,91 +1,91 @@
-import React from "react";
-import "./style.widgets.input.css";
+import React from 'react'
+import './style.widgets.input.css'
 
-export default function Input(InputProperties) {
-  if (InputProperties.size === "default" || InputProperties.size === "\0") {
+export default function Input (InputProperties) {
+  if (InputProperties.size === 'default' || InputProperties.size === '\0') {
     return (
-      <div className="input__wrapper">
+      <div className='input__wrapper'>
         <i className={InputProperties.icon} />
         <input
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
-          className={"input input-" + InputProperties.type}
+          className={'input input-' + InputProperties.type}
           id={
-            "input-type__" +
+            'input-type__' +
             InputProperties.type +
-            "-icon__" +
+            '-icon__' +
             InputProperties.icon
           }
         />
       </div>
-    );
-  } else if (InputProperties.size === "medium") {
+    )
+  } else if (InputProperties.size === 'medium') {
     return (
-      <div className="input__wrapper-medium">
+      <div className='input__wrapper-medium'>
         <i className={InputProperties.icon} />
         <input
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
-          className={"input input-" + InputProperties.type}
+          className={'input input-' + InputProperties.type}
           id={
-            "input-type__" +
+            'input-type__' +
             InputProperties.type +
-            "-icon__" +
+            '-icon__' +
             InputProperties.icon
           }
         />
       </div>
-    );
-  } else if (InputProperties.size === "large") {
+    )
+  } else if (InputProperties.size === 'large') {
     return (
-      <div className="input__wrapper-large">
+      <div className='input__wrapper-large'>
         <i className={InputProperties.icon} />
         <input
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
-          className={"input input-" + InputProperties.type}
+          className={'input input-' + InputProperties.type}
           id={
-            "input-type__" +
+            'input-type__' +
             InputProperties.type +
-            "-icon__" +
+            '-icon__' +
             InputProperties.icon
           }
         />
       </div>
-    );
-  } else if (InputProperties.size === "screen-fit") {
+    )
+  } else if (InputProperties.size === 'screen-fit') {
     return (
-      <div className="input__wrapper-screen-fit">
+      <div className='input__wrapper-screen-fit'>
         <i className={InputProperties.icon} />
         <input
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
-          className={"input input-" + InputProperties.type}
+          className={'input input-' + InputProperties.type}
           id={
-            "input-type__" +
+            'input-type__' +
             InputProperties.type +
-            "-icon__" +
+            '-icon__' +
             InputProperties.icon
           }
         />
       </div>
-    );
+    )
   } else {
     return (
-      <div className="input__wrapper">
+      <div className='input__wrapper'>
         <i className={InputProperties.icon} />
         <input
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
-          className={"input input-" + InputProperties.type}
+          className={'input input-' + InputProperties.type}
           id={
-            "input-type__" +
+            'input-type__' +
             InputProperties.type +
-            "-icon__" +
+            '-icon__' +
             InputProperties.icon
           }
         />
       </div>
-    );
+    )
   }
 }

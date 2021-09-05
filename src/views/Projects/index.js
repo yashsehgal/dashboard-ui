@@ -5,11 +5,11 @@ import Input from '../../styled-components/widgets/Input';
 import { PrimaryButton } from '../../styled-components/widgets/Button';
 
 // importing sample-data for testing frontend
-import ProjectData from './__projects.json';
+import ProjectData from './__projects.json'
 
-export default function Projects() {
-  const [_projectData] = useState(ProjectData);
-  console.log(_projectData);
+export default function Projects () {
+  const [_projectData] = useState(ProjectData)
+  console.log(_projectData)
   return (
     <div className="view view__projects">
       <div className="projects-board-header">
@@ -29,16 +29,16 @@ export default function Projects() {
           />
         </div>
       </div>
-      <div className="projects-wrapper">
+      <div className='projects-wrapper'>
         {_projectData.map((data, index) => (
-            <ProjectCard 
-              title={data.title}
-              description={data.description}
-              stars={data.stars_on_github}
-              forks={data.forks_on_github}
-              languages={data.languages}
-              key={index.toString()}
-            />
+          <ProjectCard
+            title={data.title}
+            description={data.description}
+            stars={data.stars_on_github}
+            forks={data.forks_on_github}
+            languages={data.languages}
+            key={index.toString()}
+          />
         ))}
       </div>
     </div>

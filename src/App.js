@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 import { BrowserRouter, Route } from "react-router-dom";
 import "./styled-components/index.css";
@@ -9,13 +9,13 @@ import Projects from "./views/Projects";
 import Teams from "./views/Teams";
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
-      <div className="view__app">
+      <div className='view__app'>
         {/* sidebar */}
         <Sidebar />
 
-        <div className="app-wrapper">
+        <div className='app-wrapper'>
           {/* setting up routers using hash-router */}
           <BrowserRouter>
             {/* routes for home-view / dashboard-view */}
@@ -31,6 +31,6 @@ export default class App extends React.Component {
           </BrowserRouter>
         </div>
       </div>
-    );
+    )
   }
 }
