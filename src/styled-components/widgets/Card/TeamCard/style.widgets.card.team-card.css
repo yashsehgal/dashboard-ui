@@ -1,0 +1,66 @@
+div.status-circle-active {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #00f100;
+}
+
+div.status-circle-offline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--gray-5);
+}
+
+div.team-card {
+  padding: 1.8em 1em;
+  -webkit-box-shadow: 0px 2px 8px var(--gray-6);
+          box-shadow: 0px 2px 8px var(--gray-6);
+  border-radius: 6px;
+  border: 0.2px solid transparent;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+div.team-card:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0.2px solid var(--gray-5);
+}
+
+div.team-card > h5.team-name {
+  text-align: center;
+  margin: auto;
+}
+
+div.team-card > div.team-member-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div.team-card > div.team-category-tags-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.2em;
+  gap: 8px;
+}
+/*# sourceMappingURL=style.widgets.card.team-card.css.map */
