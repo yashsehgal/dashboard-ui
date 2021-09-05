@@ -12,15 +12,9 @@ export default function ProjectCard (__ProjectCardDetails) {
           <i className='fas fa-star' />
           <p className='star-count-value'>{__ProjectCardDetails.stars}</p>
         </div>
-<<<<<<< HEAD
         <div className="project-statistics__forks-count-wrapper">
           <i className="fas fa-code-branch"></i>
           <p className="fork-count-value">{__ProjectCardDetails.forks}</p>
-=======
-        <div className='project-statistics__forks-count-wrapper'>
-          <i class='fas fa-code-branch' />
-          <p className='fork-count-value'>{__ProjectCardDetails.forks}</p>
->>>>>>> d684c9e0887b22e8dae39a510427ed8e4a7b30c6
         </div>
       </div>
       <div className='card-footer__language-tags-wrapper'>
