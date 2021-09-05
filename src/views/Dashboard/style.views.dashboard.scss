@@ -1,0 +1,15 @@
+div.view__dashboard {
+  > div.board-wrapper {
+    > div.board-header-section {
+      margin-top: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      > div.dashboard-task-action-buttons-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+}
