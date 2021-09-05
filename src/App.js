@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "./styled-components/index.css";
 import Sidebar from "./styled-components/section-components/Sidebar";
 import Dashboard from "./views/Dashboard";
+import Projects from "./views/Projects";
 
 export default class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class App extends React.Component {
             <Route path="/" exact component={Dashboard} />
             <Route path="/home" exact component={Dashboard} />
             <Route path="/dashboard" exact component={Dashboard} />
+            <Route path="/projects" exact component={Projects} />
           </BrowserRouter>
         </div>
       </div>
