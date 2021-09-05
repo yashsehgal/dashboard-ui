@@ -38,8 +38,10 @@ div.team-card {
     margin-left: auto;
     margin-top: 1em;
     width: fit-content;
-    > div.status-circle { }
-    > p.active_offline-status { }
+    > div.status-circle {
+    }
+    > p.active_offline-status {
+    }
   }
   > div.team-category-tags-wrapper {
     width: fit-content;
