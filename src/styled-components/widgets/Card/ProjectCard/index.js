@@ -13,7 +13,7 @@ export default function ProjectCard(__ProjectCardDetails) {
           <p className="star-count-value">{__ProjectCardDetails.stars}</p>
         </div>
         <div className="project-statistics__forks-count-wrapper">
-          <i class="fas fa-code-branch"></i>
+          <i className="fas fa-code-branch"></i>
           <p className="fork-count-value">{__ProjectCardDetails.forks}</p>
         </div>
       </div>
