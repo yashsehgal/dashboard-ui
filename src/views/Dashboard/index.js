@@ -4,6 +4,7 @@ import {
   OutlineButton,
   PrimaryButton,
 } from "../../styled-components/widgets/Button";
+import Board from "./Board";
 import "./style.views.dashboard.css";
 
 export default function Dashboard() {
@@ -21,6 +22,9 @@ export default function Dashboard() {
             <PrimaryButton value="New Task" icon="fas fa-plus" />
             <OutlineButton value="Edit Columns" icon="fas fa-pen" />
           </div>
+        </div>
+        <div className="board">
+          <Board />
         </div>
       </div>
     </div>
