@@ -1,0 +1,23 @@
+div.view__projects > div.projects-board-header {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+div.view__projects > div.projects-wrapper {
+  margin-top: 2.6em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 2em;
+  row-gap: 1em;
+}
+/*# sourceMappingURL=style.views.projects.css.map */

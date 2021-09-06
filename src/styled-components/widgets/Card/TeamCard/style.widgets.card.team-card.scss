@@ -1,0 +1,55 @@
+// status-circle style
+div.status-circle {
+  &-active {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(0, 241, 0);
+  }
+  &-offline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--gray-5);
+  }
+}
+
+// team-card style
+div.team-card {
+  padding: 1.8em 1em;
+  box-shadow: 0px 2px 8px var(--gray-6);
+  border-radius: 6px;
+  border: 0.2px solid transparent;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    box-shadow: none;
+    border: 0.2px solid var(--gray-5);
+  }
+  > h5.team-name {
+    text-align: center;
+    margin: auto;
+  }
+  > div.team-member-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    width: fit-content;
+    > div.status-circle {
+    }
+    > p.active_offline-status {
+    }
+  }
+  > div.team-category-tags-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.2em;
+    gap: 8px;
+  }
+}

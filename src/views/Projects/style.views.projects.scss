@@ -1,0 +1,15 @@
+div.view__projects {
+  > div.projects-board-header {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  > div.projects-wrapper {
+    margin-top: 2.6em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    row-gap: 1em;
+  }
+}

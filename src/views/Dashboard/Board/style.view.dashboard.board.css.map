@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.view.dashboard.board.scss"
+    ],
+    "names": [],
+    "file": "style.view.dashboard.board.css"
+}

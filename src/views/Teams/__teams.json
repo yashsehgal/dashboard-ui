@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["SAAS", "Web Services"]
+  },
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["Blockchain"]
+  },
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["AI/ML", "Blockchain"]
+  },
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["SAAS", "AI/ML"]
+  },
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["Marketing"]
+  },
+  {
+    "name": "Team Name",
+    "member_count": "16",
+    "active_member_count": "5",
+    "team_category": ["SAAS", "Teaching"]
+  }
+]
