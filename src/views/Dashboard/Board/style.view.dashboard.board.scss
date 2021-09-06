@@ -1,0 +1,23 @@
+div.board {
+  margin-top: 1em;
+  display: flex;
+  // justify-content: center;
+  gap: 2em;
+  > div.board-container {
+    height: 600px;
+    background-color: var(--gray-6);
+    width: fit-content;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    border: 0.2px solid #dddddd;
+    // width: fit-content;
+    padding: 0.6em;
+    row-gap: 1em;
+    > h5.board-container__title {
+      margin-bottom: 1em;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
