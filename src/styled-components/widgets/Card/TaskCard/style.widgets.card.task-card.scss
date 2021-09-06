@@ -1,0 +1,37 @@
+div.task-card {
+  background-color: white;
+  cursor: pointer;
+  padding: 1.4em;
+  width: fit-content;
+  box-shadow: 0px 2px 6px #dddddd;
+  border: 0.4px solid transparent;
+  &:hover {
+    box-shadow: none;
+    border: 0.4px solid var(--gray-5);
+  }
+  > div.task-card__header-wrapper {
+    width: fit-content;
+    > strong.task-title {
+      font-size: 14px;
+    }
+  }
+  > div.task-card__footer-wrapper {
+    margin-top: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div.assignees-wrapper {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      > img.task-card__assigned-user-profile-image {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+      }
+    }
+    > div.labels-wrapper {
+      width: fit-content;
+    }
+  }
+}
