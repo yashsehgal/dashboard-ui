@@ -12,7 +12,7 @@ Gitspace is a project management and issue/feature tracking tool which can be us
 
 ## Project Status / Ideation
 
-- As of now, the project frontend is under-development using components, widgets, and layouts and a lot more things. 
+- As of now, the project frontend is under-development using components, widgets, and layouts and a lot more things.
 - Later we are going to use [socket.io](https://socket.io) for implementing chat functionality in between the team-mates.
 - [Next.js](https://nextjs.org) will be used to create collaborative workspaces for users and teams
 
