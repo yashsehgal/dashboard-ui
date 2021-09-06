@@ -1,6 +1,10 @@
 export default function loadImageFromImagekit(image_id, image_filetype) {
   let ImagekitURLExport;
 
+  if (image_id === 'test-user-image') {
+    return "https://www.economywatch.com/wp-content/uploads/2021/06/Elon_Musk.jpg";
+  }
+
   if (image_filetype === "svg") {
     switch (image_id) {
       case "gitspace-logo":
