@@ -8,7 +8,7 @@ Gitspace is a project management and issue/feature tracking tool which can be us
 
 ### Current deployment
 
-- Current production deployment - [Production](gitspace-ui.vercel.app/)
+- Current production deployment - [Production](https://gitspace-ui.vercel.app/)
 
 ## Project Status / Ideation
 
