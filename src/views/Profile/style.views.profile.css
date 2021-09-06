@@ -4,20 +4,22 @@ div.view__profile > div.profile-board-header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
-div.view__profile > div.profile-board-header > div.profile-action-buttons-wrapper {
+div.view__profile
+  > div.profile-board-header
+  > div.profile-action-buttons-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 4px;
 }
 
@@ -30,12 +32,15 @@ div.view__profile > div.profile-wrapper > div.profile-header-wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 12px;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-header-wrapper > img.user-profile-display-picture {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-header-wrapper
+  > img.user-profile-display-picture {
   width: 80px;
 }
 
@@ -43,40 +48,62 @@ div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper {
   margin-top: 2em;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.description-section-wrapper {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.description-section-wrapper {
   margin-top: 1em;
   margin-bottom: 0.8em;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.description-section-wrapper > p.user-description {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.description-section-wrapper
+  > p.user-description {
   color: var(--gray-3);
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.contact-details-section-wrapper {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.contact-details-section-wrapper {
   padding: 2em 0em;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.contact-details-section-wrapper > h5.contact-details-title {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.contact-details-section-wrapper
+  > h5.contact-details-title {
   margin-bottom: 1em;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.contact-details-section-wrapper > div.contact-details__phone-number-wrapper {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.contact-details-section-wrapper
+  > div.contact-details__phone-number-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 8px;
 }
 
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper > div.contact-details-section-wrapper > div.contact-details__email-address-wrapper {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-body-content-wrapper
+  > div.contact-details-section-wrapper
+  > div.contact-details__email-address-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 8px;
 }
 /*# sourceMappingURL=style.views.profile.css.map */
