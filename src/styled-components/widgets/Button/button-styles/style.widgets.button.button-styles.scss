@@ -13,10 +13,10 @@
   &-primary {
     background-color: var(--primary-blue);
     color: white;
-    border: none;
+    border: 1.2px solid var(--primary-blue);
     transition: all 0.1s ease-in-out;
     &:hover {
-      transform: translateY(-2px);
+      filter: brightness(96%);
     }
   }
   &-primary-disabled {
@@ -30,7 +30,7 @@
     color: var(--primary-blue);
     transition: all 0.1s ease-in-out;
     &:hover {
-      transform: translateY(-2px);
+      filter: brightness(96%);
     }
   }
   &-outline-disabled {
@@ -46,4 +46,8 @@
   &-large {
     padding: 12px;
   }
+}
+
+div.button-wrap-fit-content {
+  width: fit-content;
 }

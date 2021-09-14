@@ -4,23 +4,20 @@ div.view__dashboard > div.board-wrapper > div.board-header-section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-div.view__dashboard
-  > div.board-wrapper
-  > div.board-header-section
-  > div.dashboard-task-action-buttons-wrapper {
+div.view__dashboard > div.board-wrapper > div.board-header-section > div.dashboard-task-action-buttons-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 4px;
 }
 /*# sourceMappingURL=style.views.dashboard.css.map */

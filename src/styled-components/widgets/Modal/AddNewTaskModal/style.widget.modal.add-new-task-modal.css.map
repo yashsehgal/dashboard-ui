@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.widget.modal.add-new-task-modal.scss"
+    ],
+    "names": [],
+    "file": "style.widget.modal.add-new-task-modal.css"
+}

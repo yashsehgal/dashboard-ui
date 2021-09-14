@@ -39,10 +39,10 @@ div.widget__sidebar {
       gap: 1em;
       > a.sidebar-option-link > li.sidebar-option {
         padding: 0.4em;
-        border-radius: 6px;
-        transition: all 0.1s ease-in-out;
+        border-radius: 4px;
+        transition: all 0.1s ease-in;
         &:hover {
-          background-color: var(--gray-2);
+          background-color: #424242;
           color: var(--gray-6);
         }
       }

@@ -15,7 +15,7 @@ export default function OutlineButtonLarge(__ButtonProperties) {
     } else {
       return (
         <button className="button button-outline button-outline-disabled button-large">
-          <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+          <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
         </button>
       );
     }
@@ -34,7 +34,7 @@ export default function OutlineButtonLarge(__ButtonProperties) {
   } else {
     return (
       <button className="button button-outline button-large">
-        <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+        <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
       </button>
     );
   }
