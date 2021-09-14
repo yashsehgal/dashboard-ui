@@ -6,8 +6,11 @@ import {
   PrimaryButton
 } from '../../styled-components/widgets/Button'
 import { AddNewTaskModal } from '../../styled-components/widgets/Modal'
+import { saveDataTo } from '../../utils/AccessLocalStorage'
 import Board from './Board'
 import './style.views.dashboard.css'
+
+ReactModal.setAppElement('#root');
 
 export default function Dashboard () {
   const [addNewTaskModalPopupState, setAddNewTaskModalPopupState] = useState(false);
@@ -36,10 +39,44 @@ export default function Dashboard () {
       <ReactModal 
         isOpen={addNewTaskModalPopupState} 
         onRequestClose={() => setAddNewTaskModalPopupState(false)}
+        style={{
+          overlay: {
+            backgroundColor: '#00000025'
+          },
+          content: {
+            width: 'fit-content',
+            height: 'fit-content',
+            padding: '3em',
+            margin: 'auto',
+            boxShadow: '0px 6px 20px #00000045'
+          }
+        }}
       >
         <AddNewTaskModal />
         <div className="modal-action-button-wrapper" style={{ display: 'flex', alignItems: 'center' }}>
-          <div className="button-wrap-fit-content" onClick={() => {}}>
+          <div className="button-wrap-fit-content" onClick={() => {
+            let __taskTitle = document.getElementById('new-task-title');
+            let __taskDescription = document.getElementById('new-task-description');
+            let __taskDate = document.getElementById('new-task-date');
+            let __taskTime = document.getElementById('new-task-time');
+            
+            const newTaskEntryObject = {
+              "task_title": (!__taskTitle) ? 'undefined-task-title' : __taskTitle.value,
+              "task_description": (!__taskTitle) ? 'undefined-task-description' : __taskDescription.value,
+              "task_date": (!__taskDate) ? 'undefined-task-date' : __taskDate.value,
+              "task_time": (!__taskTime) ? 'undefined-task-time' : __taskTime.value
+            };
+            
+            /** 
+             * use method [saveDataTo] from AccessLocalStorage class to store newTaskEntryObject
+             * to local storage 
+            */
+            (saveDataTo('tasks', newTaskEntryObject)) 
+              ? console.log('Task saved with data' + newTaskEntryObject) 
+              : console.log('Unable to add task');
+            // closing the new-task-modal-popup
+            setAddNewTaskModalPopupState(false);
+          }}>
             <PrimaryButton value="Save new task" />
           </div>
           <div className="button-wrap-fit-content" onClick={() => setAddNewTaskModalPopupState(false)}>
