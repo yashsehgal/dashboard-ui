@@ -17,14 +17,19 @@ export default function TaskCard (__TaskCardDetails) {
             <img
               src={loadImageFromImagekit(data.profile_photo_url)}
               alt={data.username}
-              className="task-card__assigned-user-profile-image"
+              className='task-card__assigned-user-profile-image'
               key={index}
             />
           ))}
         </div>
         <div className='labels-wrapper'>
           {__TaskCardDetails.Labels.map((data, index) => (
-            <Tag text={data} color="var(--primary-blue)" textColor="white" key={index} />
+            <Tag
+              text={data}
+              color='var(--primary-blue)'
+              textColor='white'
+              key={index}
+            />
           ))}
         </div>
       </div>
