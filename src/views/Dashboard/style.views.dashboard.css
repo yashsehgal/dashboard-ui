@@ -23,4 +23,12 @@ div.view__dashboard
   align-items: center;
   gap: 4px;
 }
+
+div.modal-action-button-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 2em;
+  gap: 1em;
+}
 /*# sourceMappingURL=style.views.dashboard.css.map */

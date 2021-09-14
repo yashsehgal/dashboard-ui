@@ -15,7 +15,7 @@ export default function PrimaryButton(__ButtonProperties) {
     } else {
       return (
         <button className="button button-primary-disabled button-small">
-          <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+          <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
         </button>
       );
     }
@@ -35,7 +35,7 @@ export default function PrimaryButton(__ButtonProperties) {
   } else {
     return (
       <button className="button button-primary button-small">
-        <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+        <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
       </button>
     );
   }

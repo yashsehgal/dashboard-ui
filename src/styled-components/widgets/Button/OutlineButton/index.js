@@ -15,7 +15,7 @@ export default function OutlineButton(__ButtonProperties) {
     } else {
       return (
         <button className="button button-outline button-small">
-          <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+          <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
         </button>
       );
     }
@@ -35,7 +35,7 @@ export default function OutlineButton(__ButtonProperties) {
   } else {
     return (
       <button className="button button-outline button-small">
-        <i class={__ButtonProperties.icon} /> {__ButtonProperties.value}
+        <i className={__ButtonProperties.icon} /> {__ButtonProperties.value}
       </button>
     );
   }

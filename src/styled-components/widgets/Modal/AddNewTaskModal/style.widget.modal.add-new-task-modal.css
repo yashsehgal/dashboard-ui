@@ -1,0 +1,33 @@
+div.add-new-task-modal-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2em;
+}
+
+div.add-new-task-modal-wrapper > h5.add-new-task__title {
+  text-align: center;
+}
+
+div.add-new-task-modal-wrapper > div.form-input-wrapper {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div.add-new-task-modal-wrapper > div.form-input-wrapper#task-date-time-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1em;
+}
+/*# sourceMappingURL=style.widget.modal.add-new-task-modal.css.map */

@@ -10,12 +10,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            "input-type__" +
-            InputProperties.type +
-            "-icon__" +
-            InputProperties.icon
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -27,12 +22,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            "input-type__" +
-            InputProperties.type +
-            "-icon__" +
-            InputProperties.icon
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -44,12 +34,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            "input-type__" +
-            InputProperties.type +
-            "-icon__" +
-            InputProperties.icon
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -61,12 +46,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            "input-type__" +
-            InputProperties.type +
-            "-icon__" +
-            InputProperties.icon
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -78,12 +58,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            "input-type__" +
-            InputProperties.type +
-            "-icon__" +
-            InputProperties.icon
-          }
+          id={InputProperties.id}
         />
       </div>
     );

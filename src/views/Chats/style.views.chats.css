@@ -1,5 +1,5 @@
-header.menu-header {
-  padding: 16px 0px;
+div.view__chats > div.chats-view-header {
+  margin-top: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,20 +9,15 @@ header.menu-header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border-bottom: 1px solid var(--gray-5);
 }
 
-header.menu-header > div.profile-actions-wrapper {
+div.view__chats > div.chats-view-header > div.chats-view-header-button-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  gap: 26px;
+  gap: 4px;
 }
-
-header.menu-header > div.profile-actions-wrapper > img.profile-display__user {
-  width: 46px;
-}
-/*# sourceMappingURL=style.widgets.section-components.menu.css.map */
+/*# sourceMappingURL=style.views.chats.css.map */

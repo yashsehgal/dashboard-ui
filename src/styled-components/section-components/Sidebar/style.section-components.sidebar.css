@@ -69,9 +69,9 @@ div.widget__sidebar
   > a.sidebar-option-link
   > li.sidebar-option {
   padding: 0.4em;
-  border-radius: 6px;
-  -webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+  border-radius: 4px;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 div.widget__sidebar
@@ -79,7 +79,7 @@ div.widget__sidebar
   > ul.sidebar-options-list
   > a.sidebar-option-link
   > li.sidebar-option:hover {
-  background-color: var(--gray-2);
+  background-color: #424242;
   color: var(--gray-6);
 }
 

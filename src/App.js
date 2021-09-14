@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./styled-components/index.css";
 import Sidebar from "./styled-components/section-components/Sidebar";
+import Chats from "./views/Chats";
 import Dashboard from "./views/Dashboard";
 import Profile from "./views/Profile";
 import Projects from "./views/Projects";
@@ -28,6 +29,8 @@ export default class App extends React.Component {
             <Route path="/teams" exact component={Teams} />
             {/* route for profile view */}
             <Route path="/profile" exact component={Profile} />
+            {/* route for chat view */}
+            <Route path="/chats" exact component={Chats} />
           </BrowserRouter>
         </div>
       </div>
