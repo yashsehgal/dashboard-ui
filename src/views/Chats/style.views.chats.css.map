@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,GADC,AAAA,YAAY,GACX,GAAG,AAAA,kBAAkB,CAAC;EACtB,UAAU,EAAE,GAAG;EACf,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAM/B;;AAXH,AAMI,GAND,AAAA,YAAY,GACX,GAAG,AAAA,kBAAkB,GAKnB,GAAG,AAAA,iCAAiC,CAAC;EACrC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,GAAG;CACT",
+    "sources": [
+        "style.views.chats.scss"
+    ],
+    "names": [],
+    "file": "style.views.chats.css"
+}

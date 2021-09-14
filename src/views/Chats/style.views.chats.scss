@@ -1,0 +1,13 @@
+div.view__chats {
+  > div.chats-view-header {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div.chats-view-header-button-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}
