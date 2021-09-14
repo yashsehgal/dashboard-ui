@@ -1,0 +1,17 @@
+div.add-new-task-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  > h5.add-new-task__title {
+    text-align: center;
+  }
+  > div.form-input-wrapper {
+    margin: auto;
+    width: fit-content;
+  }
+  > div.form-input-wrapper#task-date-time-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
