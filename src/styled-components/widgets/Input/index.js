@@ -10,9 +10,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            InputProperties.id
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -24,9 +22,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            InputProperties.id
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -38,9 +34,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            InputProperties.id
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -52,9 +46,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            InputProperties.id
-          }
+          id={InputProperties.id}
         />
       </div>
     );
@@ -66,9 +58,7 @@ export default function Input(InputProperties) {
           type={InputProperties.type}
           placeholder={InputProperties.placeholder}
           className={"input input-" + InputProperties.type}
-          id={
-            InputProperties.id
-          }
+          id={InputProperties.id}
         />
       </div>
     );

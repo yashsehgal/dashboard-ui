@@ -1,5 +1,3 @@
-import AddNewTaskModal from './AddNewTaskModal';
+import AddNewTaskModal from "./AddNewTaskModal";
 
-export {
-  AddNewTaskModal
-}
+export { AddNewTaskModal };

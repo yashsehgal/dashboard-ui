@@ -20,7 +20,9 @@ div.widget__sidebar > div.sidebar-product-details-wrapper {
   row-gap: 0.4em;
 }
 
-div.widget__sidebar > div.sidebar-product-details-wrapper > p.sidebar-product-details__description {
+div.widget__sidebar
+  > div.sidebar-product-details-wrapper
+  > p.sidebar-product-details__description {
   font-size: 14px;
 }
 
@@ -29,8 +31,8 @@ div.widget__sidebar > div.workspace-details-wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 8px;
   margin-top: 3em;
   cursor: pointer;
@@ -55,20 +57,28 @@ div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   list-style: none;
   gap: 1em;
 }
 
-div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option {
+div.widget__sidebar
+  > div.sidebar-options-wrapper
+  > ul.sidebar-options-list
+  > a.sidebar-option-link
+  > li.sidebar-option {
   padding: 0.4em;
   border-radius: 4px;
   -webkit-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
 }
 
-div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option:hover {
+div.widget__sidebar
+  > div.sidebar-options-wrapper
+  > ul.sidebar-options-list
+  > a.sidebar-option-link
+  > li.sidebar-option:hover {
   background-color: #424242;
   color: var(--gray-6);
 }

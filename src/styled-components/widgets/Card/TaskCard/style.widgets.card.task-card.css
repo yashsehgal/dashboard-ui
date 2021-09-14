@@ -6,13 +6,13 @@ div.task-card {
   width: -moz-fit-content;
   width: fit-content;
   -webkit-box-shadow: 0px 2px 6px #dddddd;
-          box-shadow: 0px 2px 6px #dddddd;
+  box-shadow: 0px 2px 6px #dddddd;
   border: 0.4px solid transparent;
 }
 
 div.task-card:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: 0.4px solid var(--gray-5);
 }
 
@@ -32,11 +32,11 @@ div.task-card > div.task-card__footer-wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper {
@@ -47,11 +47,14 @@ div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper > img.task-card__assigned-user-profile-image {
+div.task-card
+  > div.task-card__footer-wrapper
+  > div.assignees-wrapper
+  > img.task-card__assigned-user-profile-image {
   width: 36px;
   height: 36px;
   border-radius: 50%;

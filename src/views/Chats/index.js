@@ -1,8 +1,11 @@
-import React from 'react';
-import { OutlineButton, PrimaryButton } from '../../styled-components/widgets/Button';
-import './style.views.chats.css';
+import React from "react";
+import {
+  OutlineButton,
+  PrimaryButton,
+} from "../../styled-components/widgets/Button";
+import "./style.views.chats.css";
 
-export default function Chats () {
+export default function Chats() {
   return (
     <div className="view view__chats">
       <div className="chats-view-header">
@@ -13,5 +16,5 @@ export default function Chats () {
         </div>
       </div>
     </div>
-  )
+  );
 }
