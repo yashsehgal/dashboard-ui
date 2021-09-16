@@ -1,0 +1,21 @@
+div.sender-message {
+  width: 400px;
+  color: var(--primary-blue);
+  background-color: var(--gray-6);
+  padding: 0.6em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  margin-left: auto;
+}
+
+div.receiver-message {
+  width: 400px;
+  color: white;
+  background-color: var(--primary-blue);
+  padding: 0.6em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  border-radius: 4px;
+}

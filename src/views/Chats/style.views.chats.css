@@ -21,8 +21,12 @@ div.view__chats > div.chats-view-header > div.chats-view-header-button-wrapper {
   gap: 4px;
 }
 
-div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper {
+div.view__chats > div.group-chat-view-container {
   margin-top: 2em;
+}
+
+div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper {
+  background-color: white;
   border-right: 1px solid var(--gray-5);
   width: 240px;
   height: 100%;
@@ -63,5 +67,9 @@ div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrappe
 div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper > ul.group-chat-channels-list > li:hover {
   background-color: #00000011;
   color: var(--gray-2);
+}
+
+div.view__chats > div.group-chat-view-container > div.chat-window-layout-wrapper {
+  margin-left: 16em;
 }
 /*# sourceMappingURL=style.views.chats.css.map */

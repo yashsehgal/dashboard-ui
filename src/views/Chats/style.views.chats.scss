@@ -12,12 +12,13 @@ div.view__chats {
   }
   // group-chat-view-container
   > div.group-chat-view-container {
+    margin-top: 2em;
     > div.group-chat-channels-wrapper {
-      margin-top: 2em;
       // padding: 4em 1.2em;
       // height: 100%;
       // overflow: hidden;
       // position: fixed;
+      background-color: white;
       border-right: 1px solid var(--gray-5);
       width: 240px;
       height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -46,6 +47,9 @@ div.view__chats {
           }
         }
       }
+    }
+    > div.chat-window-layout-wrapper {
+      margin-left: 16em;
     }
   }
 }

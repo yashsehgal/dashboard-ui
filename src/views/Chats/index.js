@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import ReactModal from 'react-modal';
 import { OutlineButton, PrimaryButton } from '../../styled-components/widgets/Button';
 import EditExistingChatModal from '../../styled-components/widgets/Modal/EditExistingChatModal';
+import ChatWindowLayout from './ChatWindowLayout';
 import './style.views.chats.css'; 
+
 
 export default function Chats () {
   const [editGroupChatDetailsModalPopupState, setEditGroupChatDetailsModalPopupState] = useState(false);
@@ -22,7 +24,7 @@ export default function Chats () {
             <PrimaryButton value="Start a new chat" icon="fas fa-plus" />
           </div>
           <div className="button-wrap-fit-content" onClick={() => setEditGroupChatDetailsModalPopupState(true)}>
-            <OutlineButton value="Edit group chat details" icon="fas fa-pen" />
+            <OutlineButton value="Edit group chat details" icon="fas fa-pen" color="danger" />
           </div>
         </div>
       </div>
@@ -35,6 +37,9 @@ export default function Chats () {
               <li className="group-chat-channel-item" key={index}>#{channel.toLowerCase()}</li>
             ))}
           </ul>
+        </div>
+        <div className="chat-window-layout-wrapper">
+          <ChatWindowLayout />
         </div>
       </div>
 
@@ -58,7 +63,10 @@ export default function Chats () {
         <div className="modal-action-button-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
           <div className="button-wrap-fit-content" onClick={() => {
             let __changedGroupChatTitle = document.getElementById('changed-group-chat-title');
-            setCurrentGroupChatTitle(__changedGroupChatTitle.value);
+            console.log(__changedGroupChatTitle.value);
+            (!__changedGroupChatTitle.value || __changedGroupChatTitle.value === "") 
+              ? alert('The name of the group chat is not changed') 
+              : setCurrentGroupChatTitle(__changedGroupChatTitle.value);
             setEditGroupChatDetailsModalPopupState(false);
           }}>
             <PrimaryButton value="Save Changes" icon="fas fa-save" />
