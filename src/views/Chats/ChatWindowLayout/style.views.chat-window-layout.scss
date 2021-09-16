@@ -1,0 +1,16 @@
+div.chat-window-layout {
+  > div.chat-window-top-section {
+    padding: 0.6em;
+    background-color: white;
+    border-bottom: 1px solid var(--gray-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div.chat-window-top-section__cta-buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}

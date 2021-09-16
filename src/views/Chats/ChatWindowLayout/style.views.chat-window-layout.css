@@ -1,0 +1,31 @@
+div.chat-window-layout > div.chat-window-top-section {
+  padding: 0.6em;
+  background-color: white;
+  border-bottom: 1px solid var(--gray-5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+div.chat-window-layout
+  > div.chat-window-top-section
+  > div.chat-window-top-section__cta-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+}
+/*# sourceMappingURL=style.views.chat-window-layout.css.map */

@@ -10,4 +10,46 @@ div.view__chats {
       gap: 4px;
     }
   }
+  // group-chat-view-container
+  > div.group-chat-view-container {
+    margin-top: 2em;
+    > div.group-chat-channels-wrapper {
+      // padding: 4em 1.2em;
+      // height: 100%;
+      // overflow: hidden;
+      // position: fixed;
+      background-color: white;
+      border-right: 1px solid var(--gray-5);
+      width: 240px;
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      // z-index: 1; /* Stay on top */
+      top: 1; /* Stay at the top */
+      left: 1;
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 20px;
+      padding: 2em 1.4em;
+      > ul.group-chat-channels-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6em;
+        > li {
+          font-weight: 500;
+          cursor: pointer;
+          color: var(--gray-1);
+          padding: 0.4em;
+          border-radius: 4px;
+          transition: all 0.1s ease-in;
+          &:hover {
+            background-color: #00000011;
+            color: var(--gray-2);
+          }
+        }
+      }
+    }
+    > div.chat-window-layout-wrapper {
+      margin-left: 16em;
+    }
+  }
 }
