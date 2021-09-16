@@ -6,8 +6,8 @@
   display: flex;
   gap: 6px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: inherit;
   border-radius: 2px;
   cursor: pointer;
@@ -25,7 +25,7 @@
 
 .button-primary:hover {
   -webkit-filter: brightness(96%);
-          filter: brightness(96%);
+  filter: brightness(96%);
 }
 
 .button-primary-disabled {
@@ -44,7 +44,7 @@
 
 .button-outline:hover {
   -webkit-filter: brightness(96%);
-          filter: brightness(96%);
+  filter: brightness(96%);
 }
 
 .button-outline-disabled {

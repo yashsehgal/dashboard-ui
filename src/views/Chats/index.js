@@ -96,5 +96,5 @@ export default function Chats () {
       
       </ReactModal>
     </div>
-  )
+  );
 }

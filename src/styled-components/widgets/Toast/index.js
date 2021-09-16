@@ -1,9 +1,6 @@
-import React from 'react';
-import './style.widgets.toast.css';
+import React from "react";
+import "./style.widgets.toast.css";
 
 export default function Toast() {
-  return (
-    <div className="toast-wrapper">
-    </div>
-  )
+  return <div className="toast-wrapper" />;
 }

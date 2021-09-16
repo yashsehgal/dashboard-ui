@@ -1,6 +1,5 @@
-
-  // saveDataTo - method to save in local-storage 
-  // @params: [location of the array, data to be stored]
+// saveDataTo - method to save in local-storage
+// @params: [location of the array, data to be stored]
 function saveDataTo(localStorageID, dataToStore) {
   if (!dataToStore) return false;
 
@@ -17,6 +16,4 @@ function saveDataTo(localStorageID, dataToStore) {
   return true;
 }
 
-export {
-  saveDataTo
-}
+export { saveDataTo };
