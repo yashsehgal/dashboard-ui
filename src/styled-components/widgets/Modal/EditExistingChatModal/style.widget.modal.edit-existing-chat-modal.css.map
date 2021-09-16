@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,GADC,AAAA,yBAAyB,GACxB,EAAE,AAAA,+BAA+B,CAAC;EAClC,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "style.widget.modal.edit-existing-chat-modal.scss"
+    ],
+    "names": [],
+    "file": "style.widget.modal.edit-existing-chat-modal.css"
+}
