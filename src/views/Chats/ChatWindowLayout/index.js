@@ -2,7 +2,7 @@ import React from "react";
 import { PrimaryButton } from "../../../styled-components/widgets/Button";
 import Input from "../../../styled-components/widgets/Input";
 import MessageCard from "../../../styled-components/widgets/MessageCard";
-import './style.views.chat-window-layout.css';
+import "./style.views.chat-window-layout.css";
 
 export default function ChatWindowLayout() {
   return (
@@ -42,24 +42,25 @@ export default function ChatWindowLayout() {
           value="Yeah, alright! Let's connect at 8.30PM today"
           type="sender"
         />
-        <MessageCard
-          value="Great! See you then"
-          type="receiver"
-        />
-        <MessageCard
-          value="https://meet.google.com/meeting-code"
-        />
+        <MessageCard value="Great! See you then" type="receiver" />
+        <MessageCard value="https://meet.google.com/meeting-code" />
       </div>
-      <div className="message-input-wrapper" 
-        style={{ 
-          display: 'flex', 
-          alignItems: 'center', 
-          gap: '4px', 
-          justifyContent: "space-between" 
-        }}>
-        <Input size="large" placeholder="Type a message to send" icon="fas fa-paper-plane" />
+      <div
+        className="message-input-wrapper"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "4px",
+          justifyContent: "space-between",
+        }}
+      >
+        <Input
+          size="large"
+          placeholder="Type a message to send"
+          icon="fas fa-paper-plane"
+        />
         <PrimaryButton value="Send Message" icon="fas fa-arrow-right" />
       </div>
     </div>
-  )
+  );
 }
