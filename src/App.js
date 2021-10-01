@@ -9,7 +9,6 @@ import Projects from "./views/Projects";
 import Teams from "./views/Teams";
 import "animate.css";
 
-
 export default class App extends React.Component {
   render() {
     return (
