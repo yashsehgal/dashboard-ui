@@ -1,5 +1,4 @@
 import React from "react";
-
 import { BrowserRouter, Route } from "react-router-dom";
 import "./styled-components/index.css";
 import Sidebar from "./styled-components/section-components/Sidebar";
@@ -8,6 +7,8 @@ import Dashboard from "./views/Dashboard";
 import Profile from "./views/Profile";
 import Projects from "./views/Projects";
 import Teams from "./views/Teams";
+import "animate.css";
+
 
 export default class App extends React.Component {
   render() {
