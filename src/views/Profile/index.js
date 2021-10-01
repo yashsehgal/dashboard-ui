@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   OutlineButton,
   PrimaryButton,
 } from "../../styled-components/widgets/Button";
 import Input from "../../styled-components/widgets/Input";
-import loadImageFromImagekit from "../../utils/ImagekitMediaImports";
 import "./style.views.profile.css";
 
 export default function Profile() {
