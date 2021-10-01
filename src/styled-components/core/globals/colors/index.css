@@ -1,8 +1,8 @@
 :root {
-  --primary-blue: #7676ff;
-  --primary-red: #ff7676;
-  --primary-green: #76ffa5;
-  --primary-yellow: #fff176;
+  --primary-blue: #3d3dff;
+  --primary-red: #ff4343;
+  --primary-green: #44ff86;
+  --primary-yellow: #ffed4e;
   --gray-1: #292929;
   --gray-2: #595959;
   --gray-3: #898989;
@@ -13,35 +13,35 @@
 }
 
 .blue__bg {
-  background-color: #7676ff;
+  background-color: #3d3dff;
 }
 
 .blue__fill {
-  fill: #7676ff;
+  fill: #3d3dff;
 }
 
 .red__bg {
-  background-color: #ff7676;
+  background-color: #ff4343;
 }
 
 .red__fill {
-  fill: #ff7676;
+  fill: #ff4343;
 }
 
 .green__bg {
-  background-color: #76ffa5;
+  background-color: #44ff86;
 }
 
 .green__fill {
-  fill: #76ffa5;
+  fill: #44ff86;
 }
 
 .yellow__bg {
-  background-color: #fff176;
+  background-color: #ffed4e;
 }
 
 .yellow__fill {
-  fill: #fff176;
+  fill: #ffed4e;
 }
 
 .gray-1__bg {
@@ -101,19 +101,19 @@
 }
 
 .text__blue {
-  color: #7676ff;
+  color: #3d3dff;
 }
 
 .text__red {
-  color: #ff7676;
+  color: #ff4343;
 }
 
 .text__green {
-  color: #76ffa5;
+  color: #44ff86;
 }
 
 .text__yellow {
-  color: #fff176;
+  color: #ffed4e;
 }
 
 .text__gray-1 {
