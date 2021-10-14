@@ -16,4 +16,12 @@ function saveDataTo(localStorageID, dataToStore) {
   return true;
 }
 
-export { saveDataTo };
+function getDataFromLocalStorage(localStorageID) {
+  if (localStorage.getItem(localStorageID) === null) {
+    return 'not-found';
+  } else {
+    return JSON.parse(localStorage.getItem(localStorageID));
+  }
+}
+
+export { saveDataTo, getDataFromLocalStorage };

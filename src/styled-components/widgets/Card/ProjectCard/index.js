@@ -3,22 +3,13 @@ import Tag from "../../Tag";
 import "./style.widgets.card.project-card.css";
 
 export default function ProjectCard(__ProjectCardDetails) {
+  console.log(`>>> ${__ProjectCardDetails.tech_stack}`)
   return (
     <div className="project-card">
       <p className="project-title">{__ProjectCardDetails.title}</p>
-      <p className="project-description">{__ProjectCardDetails.description}</p>
-      <div className="project-statistics-wrapper">
-        <div className="project-statistics__stars-count-wrapper">
-          <i className="fas fa-star" />
-          <p className="star-count-value">{__ProjectCardDetails.stars}</p>
-        </div>
-        <div className="project-statistics__forks-count-wrapper">
-          <i className="fas fa-code-branch" />
-          <p className="fork-count-value">{__ProjectCardDetails.forks}</p>
-        </div>
-      </div>
+      <p className="project-description">{__ProjectCardDetails.tagline}</p>
       <div className="card-footer__language-tags-wrapper">
-        {__ProjectCardDetails.languages.map((language_name, index) => {
+        {__ProjectCardDetails.tech_stack.map((language_name, index) => {
           if (language_name.toLowerCase() === "javascript") {
             return <Tag text={language_name} key={index} color="warning" />;
           } else if (language_name.toLowerCase() === "css") {

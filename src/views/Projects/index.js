@@ -8,11 +8,16 @@ import ReactModal from "react-modal";
 // importing sample-data for testing frontend
 import ProjectData from "./__projects.json";
 import CreateNewProjectModal from "../../styled-components/widgets/Modal/CreateNewProjectModal";
-import { saveDataTo } from "../../utils/AccessLocalStorage";
+import { getDataFromLocalStorage, saveDataTo } from "../../utils/AccessLocalStorage";
 
 export default function Projects() {
-  const [_projectData] = useState(ProjectData);
+  const [_projectData] = useState(getDataFromLocalStorage('projects'));
   const [createNewProjectModalPopupState, setCreateNewProjectModalPopupState] = useState(false);
+  const ProjectCards = getDataFromLocalStorage('projects');
+  // condition to check the availability of projects array in local-storage
+  if (getDataFromLocalStorage('projects') === 'not-found') {
+    _projectData.map((data) => saveDataTo('projects', data));
+  }
   
   console.log(_projectData);
   return (
@@ -30,13 +35,12 @@ export default function Projects() {
         </div>
       </div>
       <div className="projects-wrapper">
-        {_projectData.map((data, index) => (
+        {getDataFromLocalStorage('projects').map((data, index) => (
           <ProjectCard
-            title={data.title}
-            description={data.description}
-            stars={data.stars_on_github}
-            forks={data.forks_on_github}
-            languages={data.languages}
+            title={data.project_title}
+            tagline={data.project_tagline}
+            tech_stack={data.project_tech_stack}
+            github_repository_url={data.proejct_github_repository_url}
             key={index.toString()}
           />
         ))}
