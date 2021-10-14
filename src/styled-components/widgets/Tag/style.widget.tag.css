@@ -5,23 +5,14 @@ span.tag {
   padding: 0.2em 0.4em;
   border-radius: 4px;
   font-size: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   gap: 6px;
 }
-
 span.tag ::-moz-selection {
   display: none;
 }
-
 span.tag ::selection {
   display: none;
-}
-/*# sourceMappingURL=style.widget.tag.css.map */
+}/*# sourceMappingURL=style.widget.tag.css.map */

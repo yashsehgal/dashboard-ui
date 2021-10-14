@@ -1,11 +1,7 @@
 .button {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 6px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   font-family: inherit;
   border-radius: 6px;
@@ -13,59 +9,43 @@
   font-weight: 500;
   margin-top: 1.2px;
 }
-
 .button-primary {
   background-color: var(--primary-blue);
   color: white;
   border: 1.2px solid var(--primary-blue);
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .button-primary:hover {
-  -webkit-filter: brightness(96%);
   filter: brightness(96%);
 }
-
 .button-primary:focus {
-  -webkit-box-shadow: 0px 0px 1px 3px rgba(193, 193, 255, 0.712);
   box-shadow: 0px 0px 1px 3px rgba(193, 193, 255, 0.712);
 }
-
 .button-primary-disabled {
   background-color: var(--gray-5);
   color: var(--gray-2);
   border: none;
 }
-
 .button-outline {
   background-color: transparent;
   border: 1.2px solid var(--primary-blue);
   color: var(--primary-blue);
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .button-outline:hover {
-  -webkit-filter: brightness(96%);
   filter: brightness(96%);
 }
-
 .button-outline:focus {
-  -webkit-box-shadow: 0px 0px 1px 3px rgba(193, 193, 255, 0.712);
   box-shadow: 0px 0px 1px 3px rgba(193, 193, 255, 0.712);
 }
-
 .button-outline-disabled {
   background-color: transparent;
   border: 1.2px solid var(--gray-5);
   color: var(--gray-4);
 }
-
 .button-small {
   padding: 10px;
 }
-
 .button-large {
   padding: 12px;
 }
@@ -74,5 +54,4 @@ div.button-wrap-fit-content {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-/*# sourceMappingURL=style.widgets.button.button-styles.css.map */
+}/*# sourceMappingURL=style.widgets.button.button-styles.css.map */

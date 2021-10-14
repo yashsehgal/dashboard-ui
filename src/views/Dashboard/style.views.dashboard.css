@@ -1,25 +1,11 @@
 div.view__dashboard > div.board-wrapper > div.board-header-section {
   margin-top: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
-div.view__dashboard
-  > div.board-wrapper
-  > div.board-header-section
-  > div.dashboard-task-action-buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
+div.view__dashboard > div.board-wrapper > div.board-header-section > div.dashboard-task-action-buttons-wrapper {
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   gap: 4px;
 }
@@ -30,5 +16,4 @@ div.modal-action-button-wrapper {
   width: fit-content;
   margin-top: 2em;
   gap: 1em;
-}
-/*# sourceMappingURL=style.views.dashboard.css.map */
+}/*# sourceMappingURL=style.views.dashboard.css.map */

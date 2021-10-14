@@ -15,7 +15,6 @@
 .blue__bg {
   background-color: #3d3dff;
 }
-
 .blue__fill {
   fill: #3d3dff;
 }
@@ -23,7 +22,6 @@
 .red__bg {
   background-color: #ff4343;
 }
-
 .red__fill {
   fill: #ff4343;
 }
@@ -31,7 +29,6 @@
 .green__bg {
   background-color: #44ff86;
 }
-
 .green__fill {
   fill: #44ff86;
 }
@@ -39,7 +36,6 @@
 .yellow__bg {
   background-color: #ffed4e;
 }
-
 .yellow__fill {
   fill: #ffed4e;
 }
@@ -47,7 +43,6 @@
 .gray-1__bg {
   background-color: #292929;
 }
-
 .gray-1__fill {
   fill: #292929;
 }
@@ -55,7 +50,6 @@
 .gray-2__bg {
   background-color: #595959;
 }
-
 .gray-2__fill {
   fill: #595959;
 }
@@ -63,7 +57,6 @@
 .gray-3__bg {
   background-color: #898989;
 }
-
 .gray-3__fill {
   fill: #898989;
 }
@@ -71,7 +64,6 @@
 .gray-4__bg {
   background-color: #a9a9a9;
 }
-
 .gray-4__fill {
   fill: #a9a9a9;
 }
@@ -79,7 +71,6 @@
 .gray-5__bg {
   background-color: #d9d9d9;
 }
-
 .gray-5__fill {
   fill: #d9d9d9;
 }
@@ -87,7 +78,6 @@
 .gray-6__bg {
   background-color: #f2f2f2;
 }
-
 .gray-6__fill {
   fill: #f2f2f2;
 }
@@ -95,7 +85,6 @@
 .white__bg {
   background-color: #ffffff;
 }
-
 .white__fill {
   fill: #ffffff;
 }
@@ -103,44 +92,33 @@
 .text__blue {
   color: #3d3dff;
 }
-
 .text__red {
   color: #ff4343;
 }
-
 .text__green {
   color: #44ff86;
 }
-
 .text__yellow {
   color: #ffed4e;
 }
-
 .text__gray-1 {
   color: #292929;
 }
-
 .text__gray-2 {
   color: #595959;
 }
-
 .text__gray-3 {
   color: #898989;
 }
-
 .text__gray-4 {
   color: #a9a9a9;
 }
-
 .text__gray-5 {
   color: #d9d9d9;
 }
-
 .text__gray-6 {
   color: #f2f2f2;
 }
-
 .text__white {
   color: #ffffff;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

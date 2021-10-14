@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,AAAA,YAAY,CAAC;EACjB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,aAAa;CASvC;;AAdD,AAME,MANI,AAAA,YAAY,GAMd,GAAG,AAAA,wBAAwB,CAAC;EAC5B,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,IAAI;CAIV;;AAbH,AAUI,MAVE,AAAA,YAAY,GAMd,GAAG,AAAA,wBAAwB,GAIzB,GAAG,AAAA,sBAAsB,CAAC;EAC1B,KAAK,EAAE,IAAI;CACZ",
-    "sources": [
-        "style.widgets.section-components.menu.scss"
-    ],
-    "names": [],
-    "file": "style.widgets.section-components.menu.css"
-}
+{"version":3,"sources":["style.widgets.section-components.menu.scss"],"names":[],"mappings":"AAAA;EACE,iBAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,sCAAA;AACF;AAAE;EACE,aAAA;EACA,mBAAA;EACA,SAAA;AAEJ;AADI;EACE,WAAA;AAGN","file":"style.widgets.section-components.menu.css"}

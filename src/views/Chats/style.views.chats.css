@@ -1,33 +1,18 @@
 div.view__chats > div.chats-view-header {
   margin-top: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 div.view__chats > div.chats-view-header > div.chats-view-header-button-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   gap: 4px;
 }
-
 div.view__chats > div.group-chat-view-container {
   margin-top: 2em;
 }
-
-div.view__chats
-  > div.group-chat-view-container
-  > div.group-chat-channels-wrapper {
+div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper {
   background-color: white;
   border-right: 1px solid var(--gray-5);
   width: 240px;
@@ -43,48 +28,24 @@ div.view__chats
   padding-top: 20px;
   padding: 2em 1.4em;
 }
-
-div.view__chats
-  > div.group-chat-view-container
-  > div.group-chat-channels-wrapper
-  > ul.group-chat-channels-list {
+div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper > ul.group-chat-channels-list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   gap: 1.6em;
 }
-
-div.view__chats
-  > div.group-chat-view-container
-  > div.group-chat-channels-wrapper
-  > ul.group-chat-channels-list
-  > li {
+div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper > ul.group-chat-channels-list > li {
   font-weight: 500;
   cursor: pointer;
   color: var(--gray-1);
   padding: 0.4em;
   border-radius: 4px;
-  -webkit-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
 }
-
-div.view__chats
-  > div.group-chat-view-container
-  > div.group-chat-channels-wrapper
-  > ul.group-chat-channels-list
-  > li:hover {
+div.view__chats > div.group-chat-view-container > div.group-chat-channels-wrapper > ul.group-chat-channels-list > li:hover {
   background-color: #00000011;
   color: var(--gray-2);
 }
-
-div.view__chats
-  > div.group-chat-view-container
-  > div.chat-window-layout-wrapper {
+div.view__chats > div.group-chat-view-container > div.chat-window-layout-wrapper {
   margin-left: 16em;
-}
-/*# sourceMappingURL=style.views.chats.css.map */
+}/*# sourceMappingURL=style.views.chats.css.map */

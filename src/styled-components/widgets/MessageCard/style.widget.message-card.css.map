@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,AAAA,eAAe,CAAC;EACjB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,mBAAmB;EAC1B,gBAAgB,EAAE,aAAa;EAC/B,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,IAAI;CAClB;;AAED,AAAA,GAAG,AAAA,iBAAiB,CAAC;EACnB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,mBAAmB;EACrC,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,GAAG;CACnB",
-    "sources": [
-        "style.widget.message-card.scss"
-    ],
-    "names": [],
-    "file": "style.widget.message-card.css"
-}
+{"version":3,"sources":["style.widget.message-card.scss"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,0BAAA;EACA,+BAAA;EACA,cAAA;EACA,eAAA;EACA,kBAAA;EACA,kBAAA;EACA,iBAAA;AACF;;AAEA;EACE,YAAA;EACA,YAAA;EACA,qCAAA;EACA,cAAA;EACA,eAAA;EACA,kBAAA;EACA,kBAAA;EACA,kBAAA;AACF","file":"style.widget.message-card.css"}

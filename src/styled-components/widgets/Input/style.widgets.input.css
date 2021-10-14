@@ -1,27 +1,19 @@
 div.input__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   border-radius: 2px;
   gap: 8px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border: 0.4px solid var(--gray-4);
   height: 30px;
   padding: 0px 12px;
 }
-
 div.input__wrapper:hover {
   border-color: var(--gray-2);
 }
-
 div.input__wrapper:focus {
-  -webkit-box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
   box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
 }
-
 div.input__wrapper > input {
   width: 100%;
   font-family: inherit;
@@ -30,30 +22,22 @@ div.input__wrapper > input {
 }
 
 div.input__wrapper-medium {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   border-radius: 2px;
   gap: 8px;
   width: 500px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border: 0.4px solid var(--gray-4);
   height: 30px;
   padding: 0px 12px;
 }
-
 div.input__wrapper-medium:hover {
   border-color: var(--gray-2);
 }
-
 div.input__wrapper-medium:focus {
-  -webkit-box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
   box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
 }
-
 div.input__wrapper-medium > input {
   width: 100%;
   font-family: inherit;
@@ -63,33 +47,24 @@ div.input__wrapper-medium > input {
 
 div.input__wrapper-large {
   width: 700px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   border-radius: 2px;
   gap: 8px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border: 0.4px solid var(--gray-4);
   height: 30px;
   padding: 0px 12px;
 }
-
 div.input__wrapper-large:hover {
   border-color: var(--gray-2);
 }
-
 div.input__wrapper-large:focus {
-  -webkit-box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
   box-shadow: 0px 0px 1px 4px rgba(193, 193, 255, 0.712);
 }
-
 div.input__wrapper-large > input {
   width: 100%;
   font-family: inherit;
   color: inherit;
   border: none;
-}
-/*# sourceMappingURL=style.widgets.input.css.map */
+}/*# sourceMappingURL=style.widgets.input.css.map */
