@@ -1,2 +1,21 @@
 @import url("./core/index.css");
-@import url("./base/index.css");/*# sourceMappingURL=index.css.map */
+@import url("./base/index.css");
+div.funny-alert-view-msg {
+  display: none;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 800px) {
+  div.view__app-container {
+    display: none;
+  }
+
+  div.funny-alert-view-msg {
+    display: block;
+  }
+}/*# sourceMappingURL=index.css.map */
