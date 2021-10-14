@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "../../styled-components/widgets/Card/ProjectCard";
 import "./style.views.projects.css";
 import Input from "../../styled-components/widgets/Input";
-import { PrimaryButton } from "../../styled-components/widgets/Button";
+import { PrimaryButton, OutlineButton } from "../../styled-components/widgets/Button";
 import ReactModal from "react-modal";
 
 // importing sample-data for testing frontend
@@ -68,6 +68,12 @@ export default function Projects() {
             
           >
             <PrimaryButton value="Create new project" />
+          </div>
+          <div
+            className="button-wrap-fit-content"
+            onClick={() => setCreateNewProjectModalPopupState(false)}
+          >
+            <OutlineButton value="Discard new project" />
           </div>
         </div>
       </ReactModal>
