@@ -72,16 +72,16 @@ export default function Dashboard() {
               const __taskTime = document.getElementById("new-task-time");
 
               const newTaskEntryObject = {
-                task_title: !__taskTitle
+                task_title: !__taskTitle.value
                   ? "undefined-task-title"
                   : __taskTitle.value,
-                task_description: !__taskTitle
+                task_description: !__taskDescription.value
                   ? "undefined-task-description"
                   : __taskDescription.value,
-                task_date: !__taskDate
+                task_date: !__taskDate.value
                   ? "undefined-task-date"
                   : __taskDate.value,
-                task_time: !__taskTime
+                task_time: !__taskTime.value
                   ? "undefined-task-time"
                   : __taskTime.value,
               };
