@@ -1,39 +1,39 @@
-import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
-import "./styled-components/index.css";
-import Sidebar from "./styled-components/section-components/Sidebar";
-import Chats from "./views/Chats";
-import Dashboard from "./views/Dashboard";
-import Profile from "./views/Profile";
-import Projects from "./views/Projects";
-import Teams from "./views/Teams";
-import "animate.css";
+import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+import './styled-components/index.css'
+import Sidebar from './styled-components/section-components/Sidebar'
+import Chats from './views/Chats'
+import Dashboard from './views/Dashboard'
+import Profile from './views/Profile'
+import Projects from './views/Projects'
+import Teams from './views/Teams'
+import 'animate.css'
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
-      <div className="view__app">
+      <div className='view__app'>
         {/* sidebar */}
         <Sidebar />
 
-        <div className="app-wrapper">
+        <div className='app-wrapper'>
           {/* setting up routers using hash-router */}
           <BrowserRouter>
             {/* routes for home-view / dashboard-view */}
-            <Route path="/" exact component={Dashboard} />
-            <Route path="/home" exact component={Dashboard} />
-            <Route path="/dashboard" exact component={Dashboard} />
+            <Route path='/' exact component={Dashboard} />
+            <Route path='/home' exact component={Dashboard} />
+            <Route path='/dashboard' exact component={Dashboard} />
             {/* route for projects view */}
-            <Route path="/projects" exact component={Projects} />
+            <Route path='/projects' exact component={Projects} />
             {/* route for teams view */}
-            <Route path="/teams" exact component={Teams} />
+            <Route path='/teams' exact component={Teams} />
             {/* route for profile view */}
-            <Route path="/profile" exact component={Profile} />
+            <Route path='/profile' exact component={Profile} />
             {/* route for chat view */}
-            <Route path="/chats" exact component={Chats} />
+            <Route path='/chats' exact component={Chats} />
           </BrowserRouter>
         </div>
       </div>
-    );
+    )
   }
 }

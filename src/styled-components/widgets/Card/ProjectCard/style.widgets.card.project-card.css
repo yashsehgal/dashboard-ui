@@ -23,12 +23,16 @@ div.project-card > div.project-statistics-wrapper {
   gap: 1em;
   margin-top: 1em;
 }
-div.project-card > div.project-statistics-wrapper > div.project-statistics__stars-count-wrapper {
+div.project-card
+  > div.project-statistics-wrapper
+  > div.project-statistics__stars-count-wrapper {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-div.project-card > div.project-statistics-wrapper > div.project-statistics__forks-count-wrapper {
+div.project-card
+  > div.project-statistics-wrapper
+  > div.project-statistics__forks-count-wrapper {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -38,4 +42,4 @@ div.project-card > div.card-footer__language-tags-wrapper {
   display: flex;
   align-items: center;
   gap: 8px;
-}/*# sourceMappingURL=style.widgets.card.project-card.css.map */
+} /*# sourceMappingURL=style.widgets.card.project-card.css.map */

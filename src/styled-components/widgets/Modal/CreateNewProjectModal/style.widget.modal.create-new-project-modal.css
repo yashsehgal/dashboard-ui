@@ -5,9 +5,11 @@ div.create-new-project-modal > div.create-new-project-details-form-wrapper {
   gap: 1em;
   align-items: flex-start;
 }
-div.create-new-project-modal > div.create-new-project-details-form-wrapper > div.form-input-wrapper {
+div.create-new-project-modal
+  > div.create-new-project-details-form-wrapper
+  > div.form-input-wrapper {
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
-}/*# sourceMappingURL=style.widget.modal.create-new-project-modal.css.map */
+} /*# sourceMappingURL=style.widget.modal.create-new-project-modal.css.map */
