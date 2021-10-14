@@ -4,7 +4,9 @@ div.view__profile > div.profile-board-header {
   align-items: center;
   justify-content: space-between;
 }
-div.view__profile > div.profile-board-header > div.profile-action-buttons-wrapper {
+div.view__profile
+  > div.profile-board-header
+  > div.profile-action-buttons-wrapper {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -22,13 +24,17 @@ div.view__profile > div.profile-wrapper {
   flex-direction: column;
   gap: 1.6em;
 }
-div.view__profile > div.profile-wrapper > div.profile-wrapper__full-name-section {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-wrapper__full-name-section {
   display: grid;
   grid-template-columns: auto auto;
   gap: 1em;
 }
-div.view__profile > div.profile-wrapper > div.profile-wrapper__email-address-contact-number-wrapper {
+div.view__profile
+  > div.profile-wrapper
+  > div.profile-wrapper__email-address-contact-number-wrapper {
   display: grid;
   grid-template-columns: auto auto;
   gap: 1em;
-}/*# sourceMappingURL=style.views.profile.css.map */
+} /*# sourceMappingURL=style.views.profile.css.map */

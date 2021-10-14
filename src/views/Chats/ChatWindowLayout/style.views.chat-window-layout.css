@@ -6,9 +6,11 @@ div.chat-window-layout > div.chat-window-top-section {
   align-items: center;
   justify-content: space-between;
 }
-div.chat-window-layout > div.chat-window-top-section > div.chat-window-top-section__cta-buttons {
+div.chat-window-layout
+  > div.chat-window-top-section
+  > div.chat-window-top-section__cta-buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 4px;
-}/*# sourceMappingURL=style.views.chat-window-layout.css.map */
+} /*# sourceMappingURL=style.views.chat-window-layout.css.map */

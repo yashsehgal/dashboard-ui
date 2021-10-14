@@ -4,7 +4,10 @@ div.view__dashboard > div.board-wrapper > div.board-header-section {
   align-items: center;
   justify-content: space-between;
 }
-div.view__dashboard > div.board-wrapper > div.board-header-section > div.dashboard-task-action-buttons-wrapper {
+div.view__dashboard
+  > div.board-wrapper
+  > div.board-header-section
+  > div.dashboard-task-action-buttons-wrapper {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -16,4 +19,4 @@ div.modal-action-button-wrapper {
   width: fit-content;
   margin-top: 2em;
   gap: 1em;
-}/*# sourceMappingURL=style.views.dashboard.css.map */
+} /*# sourceMappingURL=style.views.dashboard.css.map */

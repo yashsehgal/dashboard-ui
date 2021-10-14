@@ -11,7 +11,7 @@ import "animate.css";
 import PageNotFound from "./views/PageNotFound";
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
       <div className="view__app">
         <div className="funny-alert-view-msg">
@@ -43,6 +43,6 @@ export default class App extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
