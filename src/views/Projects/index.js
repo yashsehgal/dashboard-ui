@@ -8,6 +8,7 @@ import ReactModal from "react-modal";
 // importing sample-data for testing frontend
 import ProjectData from "./__projects.json";
 import CreateNewProjectModal from "../../styled-components/widgets/Modal/CreateNewProjectModal";
+import { saveDataTo } from "../../utils/AccessLocalStorage";
 
 export default function Projects() {
   const [_projectData] = useState(ProjectData);
@@ -65,7 +66,37 @@ export default function Projects() {
         >
           <div
             className="button-wrap-fit-content"
-            
+            onClick={() => {
+              const _newProjectTitle = document.getElementById('project-title-input').value;
+              const _newProjectTagline = document.getElementById('project-tagline-input').value;
+              const _newProjectGitHubRepositoryURL = document.getElementById('project-github-repository-url-input').value;
+              const _newProjectTechStack = document.getElementById('project-tech-stack-input').value;
+
+              // creating a new entry object for new-project
+              const newProjectDetailsObject = {
+                project_title: !_newProjectTitle
+                  ? "undefined-project-title"
+                  : _newProjectTitle,
+                project_tagline: !_newProjectTagline
+                  ? "undefined-project-tagline"
+                  : _newProjectTagline,
+                proejct_github_repository_url: !_newProjectGitHubRepositoryURL
+                  ? "undefined-project-github-repository-url"
+                  : _newProjectGitHubRepositoryURL,
+                project_tech_stack: !_newProjectTechStack
+                  ? "undefined-project-tech-stack"
+                  : _newProjectTechStack
+              }
+              /**
+               * use method [saveDataTo] from AccessLocalStorage class to store new-project-entry-object
+               * to local storage
+               */
+              saveDataTo("projects", newProjectDetailsObject)
+                ? console.log("Project saved with data" + newProjectDetailsObject)
+                : console.log("Unable to add task");
+              // closing the new-project-modal-popup
+              setCreateNewProjectModalPopupState(false);
+            }}
           >
             <PrimaryButton value="Create new project" />
           </div>
