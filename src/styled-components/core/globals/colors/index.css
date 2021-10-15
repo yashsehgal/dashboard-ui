@@ -1,8 +1,8 @@
 :root {
-  --primary-blue: #7676ff;
-  --primary-red: #ff7676;
-  --primary-green: #76ffa5;
-  --primary-yellow: #fff176;
+  --primary-blue: #3d3dff;
+  --primary-red: #ff4343;
+  --primary-green: #44ff86;
+  --primary-yellow: #ffed4e;
   --gray-1: #292929;
   --gray-2: #595959;
   --gray-3: #898989;
@@ -13,41 +13,36 @@
 }
 
 .blue__bg {
-  background-color: #7676ff;
+  background-color: #3d3dff;
 }
-
 .blue__fill {
-  fill: #7676ff;
+  fill: #3d3dff;
 }
 
 .red__bg {
-  background-color: #ff7676;
+  background-color: #ff4343;
 }
-
 .red__fill {
-  fill: #ff7676;
+  fill: #ff4343;
 }
 
 .green__bg {
-  background-color: #76ffa5;
+  background-color: #44ff86;
 }
-
 .green__fill {
-  fill: #76ffa5;
+  fill: #44ff86;
 }
 
 .yellow__bg {
-  background-color: #fff176;
+  background-color: #ffed4e;
 }
-
 .yellow__fill {
-  fill: #fff176;
+  fill: #ffed4e;
 }
 
 .gray-1__bg {
   background-color: #292929;
 }
-
 .gray-1__fill {
   fill: #292929;
 }
@@ -55,7 +50,6 @@
 .gray-2__bg {
   background-color: #595959;
 }
-
 .gray-2__fill {
   fill: #595959;
 }
@@ -63,7 +57,6 @@
 .gray-3__bg {
   background-color: #898989;
 }
-
 .gray-3__fill {
   fill: #898989;
 }
@@ -71,7 +64,6 @@
 .gray-4__bg {
   background-color: #a9a9a9;
 }
-
 .gray-4__fill {
   fill: #a9a9a9;
 }
@@ -79,7 +71,6 @@
 .gray-5__bg {
   background-color: #d9d9d9;
 }
-
 .gray-5__fill {
   fill: #d9d9d9;
 }
@@ -87,7 +78,6 @@
 .gray-6__bg {
   background-color: #f2f2f2;
 }
-
 .gray-6__fill {
   fill: #f2f2f2;
 }
@@ -95,52 +85,40 @@
 .white__bg {
   background-color: #ffffff;
 }
-
 .white__fill {
   fill: #ffffff;
 }
 
 .text__blue {
-  color: #7676ff;
+  color: #3d3dff;
 }
-
 .text__red {
-  color: #ff7676;
+  color: #ff4343;
 }
-
 .text__green {
-  color: #76ffa5;
+  color: #44ff86;
 }
-
 .text__yellow {
-  color: #fff176;
+  color: #ffed4e;
 }
-
 .text__gray-1 {
   color: #292929;
 }
-
 .text__gray-2 {
   color: #595959;
 }
-
 .text__gray-3 {
   color: #898989;
 }
-
 .text__gray-4 {
   color: #a9a9a9;
 }
-
 .text__gray-5 {
   color: #d9d9d9;
 }
-
 .text__gray-6 {
   color: #f2f2f2;
 }
-
 .text__white {
   color: #ffffff;
-}
-/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

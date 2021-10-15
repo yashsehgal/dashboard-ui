@@ -1,0 +1,17 @@
+div.create-new-project-modal {
+  > h4.create-new-project-modal-title {
+  }
+  > div.create-new-project-details-form-wrapper {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    > div.form-input-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+  }
+}

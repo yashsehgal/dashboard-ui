@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACE,GADC,AAAA,mBAAmB,GAClB,GAAG,AAAA,wBAAwB,CAAC;EAC5B,OAAO,EAAE,KAAK;EACd,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,aAAa;EACtC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAO/B;;AAdH,AAQI,GARD,AAAA,mBAAmB,GAClB,GAAG,AAAA,wBAAwB,GAOzB,GAAG,AAAA,qCAAqC,CAAC;EACzC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,GAAG;CACT",
-    "sources": [
-        "style.views.chat-window-layout.scss"
-    ],
-    "names": [],
-    "file": "style.views.chat-window-layout.css"
-}
+{"version":3,"sources":["style.views.chat-window-layout.scss"],"names":[],"mappings":"AACE;EACE,cAAA;EACA,uBAAA;EACA,sCAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;AAAJ;AACI;EACE,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,QAAA;AACN","file":"style.views.chat-window-layout.css"}

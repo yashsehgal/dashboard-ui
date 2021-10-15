@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,AAAA,2BAA2B,CAAC;EAC7B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,GAAG;CAaT;;AAhBD,AAIE,GAJC,AAAA,2BAA2B,GAI1B,EAAE,AAAA,oBAAoB,CAAC;EACvB,UAAU,EAAE,MAAM;CACnB;;AANH,AAOE,GAPC,AAAA,2BAA2B,GAO1B,GAAG,AAAA,mBAAmB,CAAC;EACvB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,WAAW;CACnB;;AAVH,AAWE,GAXC,AAAA,2BAA2B,GAW1B,GAAG,AAAA,mBAAmB,AAAA,qBAAqB,CAAC;EAC5C,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,GAAG;CACT",
-    "sources": [
-        "style.widget.modal.add-new-task-modal.scss"
-    ],
-    "names": [],
-    "file": "style.widget.modal.add-new-task-modal.css"
-}
+{"version":3,"sources":["style.widget.modal.add-new-task-modal.scss"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,sBAAA;EACA,QAAA;AACF;AAAE;EACE,kBAAA;AAEJ;AAAE;EACE,YAAA;EACA,0BAAA;EAAA,uBAAA;EAAA,kBAAA;AAEJ;AAAE;EACE,aAAA;EACA,sBAAA;EACA,QAAA;AAEJ","file":"style.widget.modal.add-new-task-modal.css"}

@@ -1,109 +1,40 @@
 div.view__profile > div.profile-board-header {
   margin-top: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 div.view__profile
   > div.profile-board-header
   > div.profile-action-buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   gap: 4px;
 }
-
 div.view__profile > div.profile-wrapper {
+  padding: 2em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 4em;
-}
-
-div.view__profile > div.profile-wrapper > div.profile-header-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 12px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.6em;
 }
-
 div.view__profile
   > div.profile-wrapper
-  > div.profile-header-wrapper
-  > img.user-profile-display-picture {
-  width: 80px;
+  > div.profile-wrapper__full-name-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
 }
-
-div.view__profile > div.profile-wrapper > div.profile-body-content-wrapper {
-  margin-top: 2em;
-}
-
 div.view__profile
   > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.description-section-wrapper {
-  margin-top: 1em;
-  margin-bottom: 0.8em;
-}
-
-div.view__profile
-  > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.description-section-wrapper
-  > p.user-description {
-  color: var(--gray-3);
-}
-
-div.view__profile
-  > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.contact-details-section-wrapper {
-  padding: 2em 0em;
-}
-
-div.view__profile
-  > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.contact-details-section-wrapper
-  > h5.contact-details-title {
-  margin-bottom: 1em;
-}
-
-div.view__profile
-  > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.contact-details-section-wrapper
-  > div.contact-details__phone-number-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 8px;
-}
-
-div.view__profile
-  > div.profile-wrapper
-  > div.profile-body-content-wrapper
-  > div.contact-details-section-wrapper
-  > div.contact-details__email-address-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 8px;
-}
-/*# sourceMappingURL=style.views.profile.css.map */
+  > div.profile-wrapper__email-address-contact-number-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+} /*# sourceMappingURL=style.views.profile.css.map */

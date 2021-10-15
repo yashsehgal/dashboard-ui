@@ -1,51 +1,8 @@
 [
   {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
-  },
-  {
-    "title": "Project Name",
-    "description": "This small description explaining the project working",
-    "stars_on_github": "146",
-    "forks_on_github": "32",
-    "languages": ["javascript", "css", "html", "python"]
+    "project_title": "Dashboard / GitSpace",
+    "project_tagline": "Dashboard UI Frontend using React.js, and CSS/SCSS",
+    "project_github_repository_url": "https://www.github.com/yashsehgal/dashboard-ui",
+    "project_tech_stack": ["javascript", "css", "html", "react", "ui-ux"]
   }
 ]

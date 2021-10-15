@@ -11,40 +11,24 @@ div.view__profile {
     }
   }
   > div.profile-wrapper {
+    padding: 2em;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 4em;
-    > div.profile-header-wrapper {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      > img.user-profile-display-picture {
-        width: 80px;
-      }
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.6em;
+    > div.profile-wrapper__full-name-section {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 1em;
     }
-    > div.profile-body-content-wrapper {
-      margin-top: 2em;
-      > div.description-section-wrapper {
-        margin-top: 1em;
-        margin-bottom: 0.8em;
-        > p.user-description {
-          color: var(--gray-3);
-        }
-      }
-      > div.contact-details-section-wrapper {
-        padding: 2em 0em;
-        > h5.contact-details-title {
-          margin-bottom: 1em;
-        }
-        > div.contact-details__phone-number-wrapper {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-        }
-        > div.contact-details__email-address-wrapper {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-        }
-      }
+    > div.profile-wrapper__email-address-contact-number-wrapper {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 1em;
     }
   }
 }

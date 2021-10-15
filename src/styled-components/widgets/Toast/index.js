@@ -1,6 +1,5 @@
-import React from "react";
-import "./style.widgets.toast.css";
+import React from 'react'
+import './style.widgets.toast.css'
+import ReactModal from 'react-modal'
 
-export default function Toast() {
-  return <div className="toast-wrapper" />;
-}
+export default function Toast () {}

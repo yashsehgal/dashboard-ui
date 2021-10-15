@@ -5,52 +5,34 @@ div.task-card {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -webkit-box-shadow: 0px 2px 6px #dddddd;
   box-shadow: 0px 2px 6px #dddddd;
   border: 0.4px solid transparent;
 }
-
 div.task-card:hover {
-  -webkit-box-shadow: none;
   box-shadow: none;
   border: 0.4px solid var(--gray-5);
 }
-
 div.task-card > div.task-card__header-wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
-
 div.task-card > div.task-card__header-wrapper > strong.task-title {
   font-size: 14px;
 }
-
 div.task-card > div.task-card__footer-wrapper {
   margin-top: 1.4em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
 div.task-card
   > div.task-card__footer-wrapper
   > div.assignees-wrapper
@@ -59,10 +41,8 @@ div.task-card
   height: 36px;
   border-radius: 50%;
 }
-
 div.task-card > div.task-card__footer-wrapper > div.labels-wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-/*# sourceMappingURL=style.widgets.card.task-card.css.map */
+} /*# sourceMappingURL=style.widgets.card.task-card.css.map */

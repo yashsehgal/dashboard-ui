@@ -1,0 +1,15 @@
+div.create-new-project-modal > div.create-new-project-details-form-wrapper {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+}
+div.create-new-project-modal
+  > div.create-new-project-details-form-wrapper
+  > div.form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+} /*# sourceMappingURL=style.widget.modal.create-new-project-modal.css.map */
