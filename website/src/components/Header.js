@@ -53,7 +53,7 @@ export default function Header() {
                 <ul className="header-options-list" style={headerOptionsList}>
                     {headerOptions.map((option, index) => (
                         <li className="header-option-item" key={index}>
-                            <a className="header-option-link link neutral-gray-400">{option.title}</a>
+                            <a href="#" className="header-option-link link neutral-gray-400">{option.title}</a>
                         </li>
                     ))}
                     <button className="primary-btn">Create your GitSpace</button>
