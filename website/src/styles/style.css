@@ -1,6 +1,10 @@
 /* importing 3rd-party style supports for styling */
 @import url('https://cdn.jsdelivr.net/gh/DesignSystemsOSS/eccentrictouch@master/source/eccentrictouch.css');
 
+body {
+    background: #f5f4f4;
+}
+
 .view {
     margin-right: auto;
     margin-left: auto;
