@@ -1,2 +1,8 @@
 /* importing 3rd-party style supports for styling */
 @import url('https://cdn.jsdelivr.net/gh/DesignSystemsOSS/eccentrictouch@master/source/eccentrictouch.css');
+
+.view {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+}

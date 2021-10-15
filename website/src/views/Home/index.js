@@ -1,10 +1,11 @@
 import './style.view.home.css';
 import React from 'react';
+import HeroSection from './sections/HeroSection';
 
 export default function Home() {
     return (
-        <div className="home">
-            This is the home view rendering
+        <div className="view home">
+            <HeroSection />
         </div>
     )
 }
