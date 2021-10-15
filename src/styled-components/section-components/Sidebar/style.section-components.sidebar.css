@@ -17,9 +17,7 @@ div.widget__sidebar > div.sidebar-product-details-wrapper {
   display: grid;
   row-gap: 0.4em;
 }
-div.widget__sidebar
-  > div.sidebar-product-details-wrapper
-  > p.sidebar-product-details__description {
+div.widget__sidebar > div.sidebar-product-details-wrapper > p.sidebar-product-details__description {
   font-size: 14px;
 }
 div.widget__sidebar > div.workspace-details-wrapper {
@@ -45,20 +43,12 @@ div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list {
   list-style: none;
   gap: 1em;
 }
-div.widget__sidebar
-  > div.sidebar-options-wrapper
-  > ul.sidebar-options-list
-  > a.sidebar-option-link
-  > li.sidebar-option {
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option {
   padding: 0.4em;
   border-radius: 4px;
   transition: all 0.1s ease-in;
 }
-div.widget__sidebar
-  > div.sidebar-options-wrapper
-  > ul.sidebar-options-list
-  > a.sidebar-option-link
-  > li.sidebar-option:hover {
+div.widget__sidebar > div.sidebar-options-wrapper > ul.sidebar-options-list > a.sidebar-option-link > li.sidebar-option:hover {
   background-color: #424242;
   color: var(--gray-6);
 }
@@ -70,4 +60,4 @@ div.widget__sidebar > div.sidebar-footer-section-wrapper {
 }
 div.widget__sidebar > div.sidebar-footer-section-wrapper > h6.company-name {
   color: var(--gray-4);
-} /*# sourceMappingURL=style.section-components.sidebar.css.map */
+}/*# sourceMappingURL=style.section-components.sidebar.css.map */

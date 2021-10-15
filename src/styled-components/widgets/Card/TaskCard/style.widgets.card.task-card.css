@@ -33,10 +33,7 @@ div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper {
   display: flex;
   align-items: center;
 }
-div.task-card
-  > div.task-card__footer-wrapper
-  > div.assignees-wrapper
-  > img.task-card__assigned-user-profile-image {
+div.task-card > div.task-card__footer-wrapper > div.assignees-wrapper > img.task-card__assigned-user-profile-image {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -45,4 +42,4 @@ div.task-card > div.task-card__footer-wrapper > div.labels-wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-} /*# sourceMappingURL=style.widgets.card.task-card.css.map */
+}/*# sourceMappingURL=style.widgets.card.task-card.css.map */
