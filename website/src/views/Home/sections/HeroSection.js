@@ -19,6 +19,9 @@ export default function HeroSection() {
                     A great <span className="color-blue-700">space</span> for <br />
                     all of your projects 🌌
                 </h1>
+                <p className="hero-section-description neutral-gray-500 m-top-3" style={{ fontSize: '20px' }}>
+                    A great tool for teams and if you want to work in a team, <b className="color-green-900">virtaully</b>
+                </p>
                 <div className="button-list-wrapper m-top-6" 
                     style={{
                         display: 'flex',
@@ -27,7 +30,7 @@ export default function HeroSection() {
                     }}
                 >
                     <button className="primary-btn">Create your first GitSpace</button>
-                    <button className="outline-btn">Get started with docs</button>
+                    <button className="text-btn">Get started with docs</button>
                 </div>
             </div>
             {/* image source by gitpod :D */}
