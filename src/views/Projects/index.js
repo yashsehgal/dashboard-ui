@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import ProjectCard from "../../styled-components/widgets/Card/ProjectCard";
 import "./style.views.projects.css";
 import Input from "../../styled-components/widgets/Input";
-import { PrimaryButton, OutlineButton } from "../../styled-components/widgets/Button";
+import {
+  PrimaryButton,
+  OutlineButton,
+} from "../../styled-components/widgets/Button";
 import ReactModal from "react-modal";
 
 // importing sample-data for testing frontend
@@ -12,8 +15,9 @@ import { saveDataTo } from "../../utils/AccessLocalStorage";
 
 export default function Projects() {
   const [_projectData] = useState(ProjectData);
-  const [createNewProjectModalPopupState, setCreateNewProjectModalPopupState] = useState(false);
-  
+  const [createNewProjectModalPopupState, setCreateNewProjectModalPopupState] =
+    useState(false);
+
   console.log(_projectData);
   return (
     <div className="view view__projects">
@@ -25,7 +29,10 @@ export default function Projects() {
           icon="fas fa-search"
         />
         <PrimaryButton value="Filter Projects" icon="fas fa-filter" />
-        <div className="projects-action-button-wrapper" onClick={() => setCreateNewProjectModalPopupState(true)}>
+        <div
+          className="projects-action-button-wrapper"
+          onClick={() => setCreateNewProjectModalPopupState(true)}
+        >
           <PrimaryButton value="Add a new Project" icon="fas fa-plus" />
         </div>
       </div>
@@ -67,10 +74,18 @@ export default function Projects() {
           <div
             className="button-wrap-fit-content"
             onClick={() => {
-              const _newProjectTitle = document.getElementById('project-title-input').value;
-              const _newProjectTagline = document.getElementById('project-tagline-input').value;
-              const _newProjectGitHubRepositoryURL = document.getElementById('project-github-repository-url-input').value;
-              const _newProjectTechStack = document.getElementById('project-tech-stack-input').value;
+              const _newProjectTitle = document.getElementById(
+                "project-title-input"
+              ).value;
+              const _newProjectTagline = document.getElementById(
+                "project-tagline-input"
+              ).value;
+              const _newProjectGitHubRepositoryURL = document.getElementById(
+                "project-github-repository-url-input"
+              ).value;
+              const _newProjectTechStack = document.getElementById(
+                "project-tech-stack-input"
+              ).value;
 
               // creating a new entry object for new-project
               const newProjectDetailsObject = {
@@ -85,14 +100,16 @@ export default function Projects() {
                   : _newProjectGitHubRepositoryURL,
                 project_tech_stack: !_newProjectTechStack
                   ? "undefined-project-tech-stack"
-                  : _newProjectTechStack
-              }
+                  : _newProjectTechStack,
+              };
               /**
                * use method [saveDataTo] from AccessLocalStorage class to store new-project-entry-object
                * to local storage
                */
               saveDataTo("projects", newProjectDetailsObject)
-                ? console.log("Project saved with data" + newProjectDetailsObject)
+                ? console.log(
+                    "Project saved with data" + newProjectDetailsObject
+                  )
                 : console.log("Unable to add task");
               // closing the new-project-modal-popup
               setCreateNewProjectModalPopupState(false);
